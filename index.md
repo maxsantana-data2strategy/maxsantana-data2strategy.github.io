@@ -9,20 +9,6 @@
 
 <div style="float: left; width: 68%;">
 
-## Sobre mí
-Aquí va la información de tu perfil profesional...
-
-## Habilidades
-* Python
-* SQL
-* Power BI
-
-## Proyectos
-Aquí el desglose de tus proyectos...
-
-</div>
-<br clear="all" />
-
 # Max Santana
 ### Data Analyst, Business Intelligence & Strategic Foresight Specialist
 
@@ -146,6 +132,11 @@ Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation anal
 The correlation matrix suggests that traffic jam is driven mainly by population size (r = 0.88), not GDP per capita (r = 0.28) as initially expected. Bogotá and Lima combine high traffic friction with lower economic output — the clearest case for investment. Mexico City and São Paulo show the highest absolute congestion, but it's scale-driven, not inefficiency. Montevideo and Brasília stand out as efficient benchmarks.
 
 ![Correlation matrix](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_2.png?raw=true)
+
+
+</div>
+<br clear="all" />
+
 
 **Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
 
