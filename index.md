@@ -18,8 +18,8 @@
 
 * 📧 **Email:** m.santana.r@outlook.com
 * 📱 **Phone:** +52 220 501 4335
-* 💻 **Availability:** High preference for Remote roles
----
+
+
 
 ### 🛠️ Technical Stack & Capabilities
 
@@ -41,7 +41,7 @@
 * TripleTen Data Analytics Portfolio: Territorial Profitability Analysis (SQL, JOINs, data validation) and Urban Mobility Forecasting (Python statistical analysis)
 Tech Stack: SQL, Python, R, Power BI, Tableau
 * Currently building practical case studies and projects through the Applied AI and Data Science Program from MIT
----
+
 ### 📁 Projects
 # 1. Territorial Profitability Analysis — Adventure Works
 
