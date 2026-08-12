@@ -19,7 +19,6 @@
 * 📱 **Phone:** +52 220 501 4335
 * 💻 **Availability:** High preference for Remote roles |
 * 💼 Open to full-time roles, data analysis, strategic consulting, and high-impact projects.
-
 ---
 
 ### 🛠️ Technical Stack & Capabilities
