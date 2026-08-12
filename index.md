@@ -1,3 +1,9 @@
+## 📌 Índice
+* [Sobre mí](#-sobre-mí)
+* [Habilidades](#-habilidades)
+* [Proyectos](#-proyectos)
+
+---
 # Max Santana
 ### Data Analyst, Business Intelligence & Strategic Foresight Specialist
 
