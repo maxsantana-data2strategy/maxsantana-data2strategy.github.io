@@ -134,9 +134,6 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 ![Correlation matrix](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_2.png?raw=true)
 
 
-</div>
-<br clear="all" />
-
 
 **Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
 
