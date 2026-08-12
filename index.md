@@ -1,8 +1,13 @@
-## 📌 Índice
-* [Sobre mí](#-sobre-mí)
-* [Habilidades](#-habilidades)
-* [Proyectos](#-proyectos)
+<div style="float: left; width: 25%; margin-right: 5%; border-right: 1px solid #e1e4e8;">
+  <h3>📌 Índice</h3>
+  <ul>
+    <li><a href="#sobre-mí">Sobre mí</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+  </ul>
+</div>
 
+<div style="float: left; width: 68%;">
 ---
 # Max Santana
 ### Data Analyst, Business Intelligence & Strategic Foresight Specialist
@@ -132,17 +137,5 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 
 **Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
 
-<!--
-**maxsantana-data2strategy/maxsantana-data2strategy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+<br clear="all" />
