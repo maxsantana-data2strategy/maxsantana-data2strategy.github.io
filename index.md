@@ -15,7 +15,7 @@
 
 ### 📬 Connect & Collaborate
 
-* 📧 **Email:** msantana.r@outlook.com 
+* 📧 **Email:** msantana.r@outlook.com
 * 📱 **Phone:** +52 220 501 4335
 
 
