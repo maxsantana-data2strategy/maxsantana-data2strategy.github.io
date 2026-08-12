@@ -1,14 +1,3 @@
-<div style="float: left; width: 25%; margin-right: 5%; border-right: 1px solid #e1e4e8;">
-  <h3>📌 Índice</h3>
-  <ul>
-    <li><a href="#sobre-mí">Sobre mí</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#proyectos">Proyectos</a></li>
-  </ul>
-</div>
-
-<div style="float: left; width: 68%;">
-
 # Max Santana
 ### Data Analyst, Business Intelligence & Strategic Foresight Specialist
 
@@ -137,5 +126,3 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 
 **Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
 
-</div>
-<br clear="all" />
