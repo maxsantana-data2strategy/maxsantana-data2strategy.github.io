@@ -1,4 +1,14 @@
 theme: jekyll-theme-minimal
 title: Max Santana
 description: Data Analyst, Business Intelligence & Strategic Foresight Specialist
+<div style="float: left; width: 25%; margin-right: 5%; border-right: 1px solid #e1e4e8;">
+  <h3>📌 Índice</h3>
+  <ul>
+    <li><a href="#sobre-mí">Sobre mí</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#proyectos">Proyectos</a></li>
+  </ul>
+</div>
+
+<div style="float: left; width: 68%;">
 logo: /mi_foto.jpg
