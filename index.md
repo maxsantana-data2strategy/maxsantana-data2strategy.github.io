@@ -28,72 +28,82 @@
   
 * **Business & Strategy:** Business question-oriented analysis, KPI framework design, executive communication (CFI consulting framework), decision support, and stakeholder alignment, Project Management, Conflict resolution
   
-* **Strategic Foresight & Risk Analysis:** Strategy facilitation, scenario, planning, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
+* **Strategic Foresight & Risk Analysis:** Strategy facilitation, scenario planning, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
   
 * **Social Science & Research:** Qualitative research (expert consultations, interviews, surveys, focus groups), public policy analysis, and political economy.
 
-### 💼 Experience Highlights
-
-* 6+ Years in Data-Driven BI, Risk Management & Strategic Foresight across think tanks and risk consultancies
-* IARAN (Future of Aid 2040): Synthesized 877+ stakeholder surveys across 50+ organizations into four scenario frameworks for humanitarian system resilience
-* IMCO (Corruption Risk Index): Analyzed 670,000+ procurement records across 260 federal databases; findings adopted by federal institutions
-* TripleTen Data Analytics Portfolio: Territorial Profitability Analysis (SQL, JOINs, data validation) and Urban Mobility Forecasting (Python statistical analysis)
-Tech Stack: SQL, Python, R, Power BI, Tableau
-* Currently building practical case studies and projects through the Applied AI and Data Science Program from MIT
-
 ### 📁 Projects
 
-<!-- Estilos CSS -->
+<!-- ==========================================
+     1. Estilos CSS (Limpios y Minimalistas)
+     ========================================== -->
 <style>
+  /* Contenedor de botones con línea divisoria */
   .filter-buttons {
     display: flex;
     gap: 10px;
-    margin: 20px 0 25px 0;
+    margin: 20px 0 30px 0;
     border-bottom: 2px solid #e1e4e8;
     padding-bottom: 10px;
   }
 
+  /* Estilo base de los botones */
   .filter-btn {
     background: transparent;
     border: none;
-    padding: 8px 16px;
-    font-size: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: 600;
     color: #586069;
     cursor: pointer;
     border-radius: 6px;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in-out;
   }
 
+  /* Efecto Hover */
   .filter-btn:hover {
     background-color: #f3f4f6;
     color: #24292e;
   }
 
+  /* Estado Activo (Azul GitHub) */
   .filter-btn.active {
     background-color: #0366d6;
     color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
 
-  /* Visibilidad de los proyectos */
+  /* Contenedores de Proyectos: Ocultos por defecto */
   .project-wrapper {
     display: none;
+    animation: fadeIn 0.5s; /* Pequeña animación al aparecer */
   }
 
+  /* Contenedor Activo: Visible */
   .project-wrapper.active {
     display: block;
   }
+
+  /* Animación simple */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 </style>
 
-<!-- Botones de Control -->
+<!-- ==========================================
+     2. Botones de Control (Pestañas)
+     ========================================== -->
 <div class="filter-buttons">
+  <!-- El botón de BI empieza como 'active' -->
   <button class="filter-btn active" onclick="filterProjects('bi', this)">Data Analysis / BI</button>
   <button class="filter-btn" onclick="filterProjects('foresight', this)">Foresight</button>
 </div>
 
 <!-- ==========================================
-     CATEGORÍA: Data Analysis / BI
+     3. Contenedor: Data Analysis / BI
      ========================================== -->
+<!-- Este contenedor empieza como 'active' para mostrarse por defecto -->
 <div class="project-wrapper bi active">
 
 # 1. Territorial Profitability Analysis — Adventure Works
@@ -172,7 +182,7 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 </div>
 
 <!-- ==========================================
-     CATEGORÍA: Foresight
+     4. Contenedor: Foresight
      ========================================== -->
 <div class="project-wrapper foresight">
 
@@ -196,17 +206,23 @@ OSINT | Strategic Intelligence | Qualitative Risk Analysis
 
 </div>
 
-<!-- Lógica JavaScript -->
+<!-- ==========================================
+     5. Lógica JavaScript (Corregida para Jekyll)
+     ========================================== -->
+     
 <script>
   function filterProjects(category, btnElement) {
+    // 1. Desactivar todos los botones y activar el presionado
     var buttons = document.querySelectorAll('.filter-btn');
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].classList.remove('active');
     }
     btnElement.classList.add('active');
 
+    // 2. Ocultar todos los contenedores y mostrar el de la categoría
     var wrappers = document.querySelectorAll('.project-wrapper');
     for (var j = 0; j < wrappers.length; j++) {
+      // Usamos classList.contains para mayor seguridad
       if (wrappers[j].classList.contains(category)) {
         wrappers[j].classList.add('active');
       } else {
