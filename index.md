@@ -1,15 +1,15 @@
 # Max Santana
 ### Data Analyst, Business Intelligence & Strategic Foresight Specialist
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ---
 
- Hi there 👋, welcome to my portfolio
+Hi there 👋, welcome to my portfolio
 
 ### 👨‍💻 A brief about me
 
 * 📊 I use **rigorous data analytics** and **strategic intelligence** to turn complex, messy data into actionable business intelligence 📈 and long-term strategic decisions 🎯.
-* 🌐 International relations graduate specialised in data analysis and strategic foresight 🔮 — transforming chaos to clarity ✨ and  moving from uncertainty to opportunities 💡.
+* 🌐 International relations graduate specialised in data analysis and strategic foresight 🔮 — transforming chaos to clarity ✨ and moving from uncertainty to opportunities 💡.
 * 🚀 Currently advancing into **Data analysis** and **Applied AI** & **Data Science Solutions** 🤖.
 * ⚡ Fun fact: I love Dachshunds; hoping to fulfil my dream to have one or two little wieners to join me while I code
 
@@ -18,91 +18,89 @@
 * 📧 **Email:** msantana.r@outlook.com
 * 📱 **Phone:** +52 220 501 4335
 
-
-
 ### 🛠️ Technical Stack & Capabilities
 
 * **Data Analytics & BI:** SQL, Python (`pandas`, `numpy`, `seaborn`, `matplotlib`), R (`tidyverse`, `ggplot2`), Power BI, Tableau, RStudio, Jupyter, Google Colab.
-  
+
 * **Core Technical Focus:** End-to-end data pipelines, cleaning raw datasets (100k+ records), data modeling, statistical forecasting, and dynamic dashboard design.
-  
+
 * **Business & Strategy:** Business question-oriented analysis, KPI framework design, executive communication (CFI consulting framework), decision support, and stakeholder alignment, Project Management, Conflict resolution
-  
+
 * **Strategic Foresight & Risk Analysis:** Strategy facilitation, scenario planning, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
-  
+
 * **Social Science & Research:** Qualitative research (expert consultations, interviews, surveys, focus groups), public policy analysis, and political economy.
 
 ### 📁 Projects
 
 <!-- ==========================================
-     1. Estilos CSS (Limpios y Minimalistas)
-     ========================================== -->
+1. Estilos CSS (Limpios y Minimalistas)
+========================================== -->
 <style>
-  /* Contenedor de botones con línea divisoria */
-  .filter-buttons {
-    display: flex;
-    gap: 10px;
-    margin: 20px 0 30px 0;
-    border-bottom: 2px solid #e1e4e8;
-    padding-bottom: 10px;
-  }
+/* Contenedor de botones con línea divisoria */
+.filter-buttons {
+display: flex;
+gap: 10px;
+margin: 20px 0 30px 0;
+border-bottom: 2px solid #e1e4e8;
+padding-bottom: 10px;
+}
 
-  /* Estilo base de los botones */
-  .filter-btn {
-    background: transparent;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #586069;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: all 0.2s ease-in-out;
-  }
+/* Estilo base de los botones */
+.filter-btn {
+background: transparent;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+font-weight: 600;
+color: #586069;
+cursor: pointer;
+border-radius: 6px;
+transition: all 0.2s ease-in-out;
+}
 
-  /* Efecto Hover */
-  .filter-btn:hover {
-    background-color: #f3f4f6;
-    color: #24292e;
-  }
+/* Efecto Hover */
+.filter-btn:hover {
+background-color: #f3f4f6;
+color: #24292e;
+}
 
-  /* Estado Activo (Azul GitHub) */
-  .filter-btn.active {
-    background-color: #0366d6;
-    color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
+/* Estado Activo (Azul GitHub) */
+.filter-btn.active {
+background-color: #0366d6;
+color: #ffffff;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-  /* Contenedores de Proyectos: Ocultos por defecto */
-  .project-wrapper {
-    display: none;
-    animation: fadeIn 0.5s; /* Pequeña animación al aparecer */
-  }
+/* Contenedores de Proyectos: Ocultos por defecto */
+.project-wrapper {
+display: none;
+animation: fadeIn 0.5s; /* Pequeña animación al aparecer */
+}
 
-  /* Contenedor Activo: Visible */
-  .project-wrapper.active {
-    display: block;
-  }
+/* Contenedor Activo: Visible */
+.project-wrapper.active {
+display: block;
+}
 
-  /* Animación simple */
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
+/* Animación simple */
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
 </style>
 
 <!-- ==========================================
-     2. Botones de Control (Pestañas)
-     ========================================== -->
+2. Botones de Control (Pestañas)
+========================================== -->
 <div class="filter-buttons">
-  <!-- El botón de BI empieza como 'active' -->
-  <button class="filter-btn active" onclick="filterProjects('bi', this)">Data Analysis / BI</button>
-  <button class="filter-btn" onclick="filterProjects('foresight', this)">Foresight</button>
+<!-- El botón de BI empieza como 'active' -->
+<button class="filter-btn active" onclick="filterProjects('bi', this)">Data Analysis / BI</button>
+<button class="filter-btn" onclick="filterProjects('foresight', this)">Foresight</button>
 </div>
 
 <!-- ==========================================
-     3. Contenedor: Data Analysis / BI
-     ========================================== -->
+3. Contenedor: Data Analysis / BI
+========================================== -->
 <!-- Este contenedor empieza como 'active' para mostrarse por defecto -->
 <div class="project-wrapper bi active" markdown="1">
 
@@ -111,7 +109,7 @@
 ## 🎯 Objective
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
 
-[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL) 
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
 [![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Infographic_AdventureWorks_EN_v2.pdf)
 
 ## 🔧 What I Did
@@ -125,7 +123,6 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 
 ## 📊 Results
 
-
 | Country | Revenue | Margin % | ROI % |
 |---------|---------|----------|-------|
 | 🇺🇸 USA | $3.35M | 43.4% | **75.8%** ⭐ |
@@ -136,7 +133,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 | 🇨🇦 Canada | $0.71M | 44.8% | **17.4%** |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Revenue_by_Country_EN_whitebg.png" alt="Revenue per country" width="600">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Revenue_by_Country_EN_whitebg.png" alt="Revenue per country" width="600">
 </p>
 
 ## 💡 Key Insight
@@ -151,7 +148,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 ## 🎯 Objective
 Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
 
-[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity) 
+[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
 [![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
 
 - **Data Integration** — Merged TomTom traffic records with OECD city economic indicators using city and year keys
@@ -163,7 +160,6 @@ Determine where a development bank should invest in transport infrastructure by 
 Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation analysis | Jupyter Notebook
 
 ## 📊 Results
-
 
 | City | GDP/Capita | Ratio | Profile |
 |---|---|---|---|
@@ -183,11 +179,37 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 
 **Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
 
+---
+
+# 5. Índice de Riesgos de Corrupción (IRC) — IMCO
+
+## 🎯 Objective
+Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
+
+## 🔧 What I Did
+1. **Research Support** — Supported the IRC project in a research capacity, focused on interpreting procurement risk findings
+2. **Results Presentation** — Helped translate analytical results into clear insights and presentation materials for public policy audiences
+3. **Stakeholder Reporting** — Contributed to progress reporting to USAID as project funder
+
+## 🛠️ Technologies
+R (data analysis) | Tableau (interactive dashboard) | Public policy & governance research
+
+## 📊 Results
+[![View IRC Report](https://img.shields.io/badge/📄_View_IRC_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://imco.org.mx/indice-de-riesgos-de-corrupcion/)
+[![View Interactive Dashboard](https://img.shields.io/badge/📊_View_Interactive_Dashboard-2EA44F?style=for-the-badge&logo=tableau&logoColor=white)](https://imco.org.mx/riesgosdecorrupcion)
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/imco-irc-dashboard.png" alt="IRC dashboard — public procurement risk by institution" width="700">
+</p>
+
+## 💡 Key Insight
+Between 2018 and 2020, corruption risk increased in 147 of 247 federal institutions (59%), driven by weak competition, low transparency, and non-compliance. The tool was adopted as a reference in Mexican public policy debates on transparency and institutional integrity.
+
 </div>
 
 <!-- ==========================================
-     4. Contenedor: Foresight
-     ========================================== -->
+4. Contenedor: Foresight
+========================================== -->
 <div class="project-wrapper foresight" markdown="1">
 
 # 3. Future of Aid 2040 — IARAN
@@ -208,30 +230,49 @@ Actor mapping and strategic intelligence under conditions of high uncertainty fo
 ## 🛠️ Key Methodologies
 OSINT | Strategic Intelligence | Qualitative Risk Analysis
 
+---
+
+# 6. Tierra Incógnita: The Future of the Creative Economy — Nuevo León
+
+## 🎯 Objective
+Build a foresight-based framework to turn uncertainty into opportunity for Nuevo León's creative and cultural industries, facing accelerated digital disruption, AI integration, and post-pandemic pressure.
+
+## 🔧 What I Did
+1. **Workshop Design & Facilitation** — Designed and led strategic foresight workshops with creative-sector actors and key decision-makers
+2. **Policy Translation** — Translated the foresight exercise into an actionable public policy framework (Logical Framework Approach)
+
+## 🛠️ Key Methodologies
+Horizon Scanning | Scenario Building | Strategic Facilitation | Logical Framework Approach
+
+## 📊 Deliverables
+[![View Project at CONL](https://img.shields.io/badge/🔗_View_Project_at_CONL-100000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://conl.mx/proyectos/tierra-incognita-insertar-a-las-industrias-creativas-en-cadenas-de-valor-complejas-en-nl/)
+
+Horizon scanning report for the creative economy | 4 future scenarios for Nuevo León's creative industries | Public policy framework (Logical Framework Approach) | Published strategic policy report
+
 </div>
 
 <!-- ==========================================
-     5. Lógica JavaScript (Corregida para Jekyll)
-     ========================================== -->
-     
-<script>
-  function filterProjects(category, btnElement) {
-    // 1. Desactivar todos los botones y activar el presionado
-    var buttons = document.querySelectorAll('.filter-btn');
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].classList.remove('active');
-    }
-    btnElement.classList.add('active');
+5. Lógica JavaScript (Corregida para Jekyll)
+========================================== -->
 
-    // 2. Ocultar todos los contenedores y mostrar el de la categoría
-    var wrappers = document.querySelectorAll('.project-wrapper');
-    for (var j = 0; j < wrappers.length; j++) {
-      // Usamos classList.contains para mayor seguridad
-      if (wrappers[j].classList.contains(category)) {
-        wrappers[j].classList.add('active');
-      } else {
-        wrappers[j].classList.remove('active');
-      }
-    }
-  }
+<script>
+function filterProjects(category, btnElement) {
+// 1. Desactivar todos los botones y activar el presionado
+var buttons = document.querySelectorAll('.filter-btn');
+for (var i = 0; i < buttons.length; i++) {
+buttons[i].classList.remove('active');
+}
+btnElement.classList.add('active');
+
+// 2. Ocultar todos los contenedores y mostrar el de la categoría
+var wrappers = document.querySelectorAll('.project-wrapper');
+for (var j = 0; j < wrappers.length; j++) {
+// Usamos classList.contains para mayor seguridad
+if (wrappers[j].classList.contains(category)) {
+wrappers[j].classList.add('active');
+} else {
+wrappers[j].classList.remove('active');
+}
+}
+}
 </script>
