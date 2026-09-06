@@ -104,7 +104,7 @@
      3. Contenedor: Data Analysis / BI
      ========================================== -->
 <!-- Este contenedor empieza como 'active' para mostrarse por defecto -->
-<div class="project-wrapper bi active">
+<div class="project-wrapper bi active" markdown="1">
 
 # 1. Territorial Profitability Analysis — Adventure Works
 
@@ -184,7 +184,7 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 <!-- ==========================================
      4. Contenedor: Foresight
      ========================================== -->
-<div class="project-wrapper foresight">
+<div class="project-wrapper foresight" markdown="1">
 
 # 3. Future of Aid 2040 — IARAN
 
