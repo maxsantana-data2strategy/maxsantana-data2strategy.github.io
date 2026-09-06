@@ -242,8 +242,9 @@ Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenari
 <img src="https://images.squarespace-cdn.com/content/v1/593eb9e7b8a79bc4102fd8aa/1778567241580-LWEGEV0TLR4BWCYQCVRC/b01850018.jpg" alt="Pathways to Transformation — From Analysis to Action" width="180">
 </p>
 
-[![Scenarios Report](https://img.shields.io/badge/📄_Scenarios_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iaran.org/s/Future-Aid-2040-main-report-scenarios-fv.pdf)
-[![Unpacking the Aid System](https://img.shields.io/badge/📄_Unpacking_the_Aid_System-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iaran.org/s/Future-of-Aid-2040-CLA-vf.pdf)
+[![Scenarios Report](https://img.shields.io/badge/📄_Scenarios_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_Scenarios_Report.pdf)
+[![Unpacking the Aid System](https://img.shields.io/badge/📄_Unpacking_the_Aid_System-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_UnpackingAidSystem_CLA.pdf)
+[![Pathways to Transformation](https://img.shields.io/badge/📄_Pathways_to_Transformation-0366D6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_P2T_AnalysisToAction.pdf)
 
 ## 💡 Key Insight
 Synthesizing 877+ voices from 50+ organizations — most from the Global South — into four scenario frameworks and an organizational toolkit for humanitarian resilience under high uncertainty.
@@ -274,6 +275,8 @@ Horizon Scanning | Scenario Building | Strategic Facilitation | Logical Framewor
 
 ## 📊 Deliverables
 [![View Project at CONL](https://img.shields.io/badge/🔗_View_Project_at_CONL-100000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://conl.mx/proyectos/tierra-incognita-insertar-a-las-industrias-creativas-en-cadenas-de-valor-complejas-en-nl/)
+[![One Pager](https://img.shields.io/badge/📄_One_Pager-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_OnePager.pdf)
+[![Full Report](https://img.shields.io/badge/📄_Full_Report-0366D6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_DocumentoCompleto.pdf)
 
 Horizon scanning report for the creative economy | 4 future scenarios for Nuevo León's creative industries | Public policy framework (Logical Framework Approach) | Published strategic policy report
 
