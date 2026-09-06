@@ -215,10 +215,38 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 # 3. Future of Aid 2040 — IARAN
 
 ## 🎯 Objective
-Synthesized 877+ stakeholder surveys across 50+ organizations into four scenario frameworks for humanitarian system resilience under high future uncertainty.
+Explore four plausible futures for the global humanitarian aid system by 2040, translating foresight into strategy for organizations navigating funding cuts, politicization, and systemic uncertainty.
+
+## 🔧 What I Did
+1. **Trend Research** — Led documentary research on global trends (incl. AI) as lead analyst for LATAM
+2. **Stakeholder Facilitation** — Facilitated consultations in Mexico and coordinated multiple stakeholders (donors, strategic partners, consulted organizations) within project governance
+3. **Multi-Phase Delivery** — Contributed across the project's three phases: foundations (Causal Layered Analysis), scenarios, and transformation pathways
 
 ## 🛠️ Key Methodologies
-Strategic Foresight | Horizon Scanning | Scenario Building | Stakeholder Alignment
+Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenario Building | Stakeholder Alignment
+
+## 📊 Results
+
+| Metric | Value |
+|---|---|
+| Consultations | 50+ |
+| Contributors | 877 |
+| From the Global South | 77% |
+| From local NGOs / CSOs | 44% |
+| With lived crisis experience | ~40% |
+
+<p align="center">
+<img src="https://images.squarespace-cdn.com/content/v1/593eb9e7b8a79bc4102fd8aa/7c0c2c4b-f214-4e3e-949c-77cd23ebf370/39050001_neamoscou+redux.jpg" alt="Future of Aid 2040: Navigating the Next Humanitarian Horizon" width="180">
+<img src="https://images.squarespace-cdn.com/content/v1/593eb9e7b8a79bc4102fd8aa/1760035233995-XO5JPU0R82RQKIQM0SJ3/IMG_0087_neamoscou.jpeg" alt="Unpacking the Aid System" width="180">
+<img src="https://images.squarespace-cdn.com/content/v1/593eb9e7b8a79bc4102fd8aa/1778567955102-E81RF7563TNEDZJ31XOV/1.JPG" alt="Pathways to Transformation — P2T Guide" width="180">
+<img src="https://images.squarespace-cdn.com/content/v1/593eb9e7b8a79bc4102fd8aa/1778567241580-LWEGEV0TLR4BWCYQCVRC/b01850018.jpg" alt="Pathways to Transformation — From Analysis to Action" width="180">
+</p>
+
+[![Scenarios Report](https://img.shields.io/badge/📄_Scenarios_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iaran.org/s/Future-Aid-2040-main-report-scenarios-fv.pdf)
+[![Unpacking the Aid System](https://img.shields.io/badge/📄_Unpacking_the_Aid_System-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iaran.org/s/Future-of-Aid-2040-CLA-vf.pdf)
+
+## 💡 Key Insight
+Synthesizing 877+ voices from 50+ organizations — most from the Global South — into four scenario frameworks and an organizational toolkit for humanitarian resilience under high uncertainty.
 
 ---
 
