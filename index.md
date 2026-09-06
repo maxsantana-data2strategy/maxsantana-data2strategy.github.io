@@ -28,7 +28,7 @@
   
 * **Business & Strategy:** Business question-oriented analysis, KPI framework design, executive communication (CFI consulting framework), decision support, and stakeholder alignment, Project Management, Conflict resolution
   
-* **Strategic Foresight & Risk Analysis:** Strategy facilitation, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
+* **Strategic Foresight & Risk Analysis:** Strategy facilitation, scenario, planning, horizon scanning, geopolitical risk analysis, actor mapping, long-term scenario building under uncertainty, HUMINT, and OSINT.
   
 * **Social Science & Research:** Qualitative research (expert consultations, interviews, surveys, focus groups), public policy analysis, and political economy.
 
@@ -43,7 +43,7 @@ Tech Stack: SQL, Python, R, Power BI, Tableau
 
 ### 📁 Projects
 
-!-- Estilos CSS -->
+<!-- Estilos CSS -->
 <style>
   .filter-buttons {
     display: flex;
