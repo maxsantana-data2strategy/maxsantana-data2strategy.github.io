@@ -125,6 +125,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 
 ## 📊 Results
 
+
 | Country | Revenue | Margin % | ROI % |
 |---------|---------|----------|-------|
 | 🇺🇸 USA | $3.35M | 43.4% | **75.8%** ⭐ |
@@ -162,6 +163,7 @@ Determine where a development bank should invest in transport infrastructure by 
 Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation analysis | Jupyter Notebook
 
 ## 📊 Results
+
 
 | City | GDP/Capita | Ratio | Profile |
 |---|---|---|---|
