@@ -217,6 +217,12 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 ## 🎯 Objective
 Explore four plausible futures for the global humanitarian aid system by 2040, translating foresight into strategy for organizations navigating funding cuts, politicization, and systemic uncertainty.
 
+## 🧭 Scenario Matrix
+
+Four scenarios mapped across two axes: network cooperation vs. survival of the fittest, and multipolar blocs vs. empires and conflict.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/14ccf88d-eb73-421d-bc81-8c4fd0893e8d" alt="2040 Aid Scenarios Matrix — four future scenarios for global humanitarian aid" width="700"></p>
+
 ## 🔧 What I Did
 1. **Trend Research** — Led documentary research on global trends (incl. AI) as lead analyst for LATAM
 2. **Stakeholder Facilitation** — Facilitated consultations in Mexico and coordinated multiple stakeholders (donors, strategic partners, consulted organizations) within project governance
