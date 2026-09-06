@@ -42,29 +42,79 @@ Tech Stack: SQL, Python, R, Power BI, Tableau
 * Currently building practical case studies and projects through the Applied AI and Data Science Program from MIT
 
 ### 📁 Projects
+### 📁 Projects
+
+<!-- Estilos CSS -->
+<style>
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0 25px 0;
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 10px;
+  }
+
+  .filter-btn {
+    background: transparent;
+    border: none;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #586069;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+
+  .filter-btn:hover {
+    background-color: #f3f4f6;
+    color: #24292e;
+  }
+
+  .filter-btn.active {
+    background-color: #0366d6;
+    color: #ffffff;
+  }
+
+  /* Ocultar proyectos por defecto mediante CSS */
+  .project-wrapper {
+    display: none;
+  }
+
+  .project-wrapper.active {
+    display: block;
+  }
+</style>
+
+<!-- Botones de Control -->
+<div class="filter-buttons">
+  <button class="filter-btn active" onclick="filterProjects('bi', this)">Data Analysis / BI</button>
+  <button class="filter-btn" onclick="filterProjects('foresight', this)">Foresight</button>
+</div>
+
+<!-- ==========================================
+     CATEGORÍA: Data Analysis / BI
+     ========================================== -->
+<div class="project-wrapper bi active">
+
 # 1. Territorial Profitability Analysis — Adventure Works
 
 ## 🎯 Objective
-
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
 
-[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
-
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL) 
 [![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Infographic_AdventureWorks_EN_v2.pdf)
 
 ## 🔧 What I Did
-
 1. **Schema Integration** — Joined 6 tables (sales, products, categories, territories, campaigns) using `clave_territorio` and `clave_producto`
 2. **Data Cleaning** — Calculated `ingreso_total` and `costo_total` per order, handled NULLs with COALESCE
 3. **KPI Calculation** — Aggregated revenue, gross profit, margin %, and ROI % by territory
 4. **Validation** — Reconciled totals across joins, confirmed no data anomalies
 
 ## 🛠️ Technologies
-
 SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with 6 tables | Data validation & QA
 
 ## 📊 Results
-
 | Country | Revenue | Margin % | ROI % |
 |---------|---------|----------|-------|
 | 🇺🇸 USA | $3.35M | 43.4% | **75.8%** ⭐ |
@@ -79,7 +129,6 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 </p>
 
 ## 💡 Key Insight
-
 **USA leads with 75.8% ROI** on $1.92M spend. **Australia (49.2% ROI) punches above weight.** **UK underperforms** with only 22.1% ROI despite $2.3M investment. All margins healthy (41–45%), but ROI divergence driven by **marketing spend efficiency.**
 
 **Recommendation:** Reallocate ~$500K from underperforming EU/CA markets to USA/Australia for 30–40% ROI improvement.
@@ -89,9 +138,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 ## 🎯 Objective
 Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
 
-<!-- Botón Negro: Enlace al Repositorio -->
-[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
-
+[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity) 
 [![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
 
 - **Data Integration** — Merged TomTom traffic records with OECD city economic indicators using city and year keys
@@ -103,7 +150,6 @@ Determine where a development bank should invest in transport infrastructure by 
 Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation analysis | Jupyter Notebook
 
 ## 📊 Results
-
 | City | GDP/Capita | Ratio | Profile |
 |---|---|---|---|
 | 🇨🇴 Bogotá | $11,442 | 0.100 | Highest urgency ⭐ |
@@ -113,16 +159,56 @@ Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation anal
 | 🇧🇷 Brasília | $16,251 | 0.006 | Efficient benchmark |
 | 🇺🇾 Montevideo | $26,176 | 0.002 | Efficient benchmark |
 
-
 ![Jams delay and GDP per capita by city](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_1.png?raw=true)
-
 
 ## 💡 Key Insight
 The correlation matrix suggests that traffic jam is driven mainly by population size (r = 0.88), not GDP per capita (r = 0.28) as initially expected. Bogotá and Lima combine high traffic friction with lower economic output — the clearest case for investment. Mexico City and São Paulo show the highest absolute congestion, but it's scale-driven, not inefficiency. Montevideo and Brasília stand out as efficient benchmarks.
 
 ![Correlation matrix](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_2.png?raw=true)
 
-
-
 **Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
 
+</div>
+
+<!-- ==========================================
+     CATEGORÍA: Foresight
+     ========================================== -->
+<div class="project-wrapper foresight">
+
+# 3. Future of Aid 2040 — IARAN
+
+## 🎯 Objective
+Synthesized 877+ stakeholder surveys across 50+ organizations into four scenario frameworks for humanitarian system resilience under high future uncertainty.
+
+## 🛠️ Key Methodologies
+Strategic Foresight | Horizon Scanning | Scenario Building | Stakeholder Alignment
+
+---
+
+# 4. Geopolitical Risk & Horizon Scanning
+
+## 🎯 Objective
+Actor mapping and strategic intelligence under conditions of high uncertainty for executive decision-making.
+
+## 🛠️ Key Methodologies
+OSINT | Strategic Intelligence | Qualitative Risk Analysis
+
+</div>
+
+<!-- Lógica JavaScript -->
+<script>
+  function filterProjects(category, btnElement) {
+    // 1. Cambiar estado activo en los botones
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    btnElement.classList.add('active');
+
+    // 2. Mostrar/Ocultar contenedores
+    document.querySelectorAll('.project-wrapper').forEach(wrapper => {
+      if (wrapper.classList.contains(category)) {
+        wrapper.classList.add('active');
+      } else {
+        wrapper.classList.remove('active');
+      }
+    });
+  }
+</script>
