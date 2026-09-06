@@ -114,7 +114,9 @@ Determine where to allocate marketing spend for maximum ROI across territories b
 
 <details markdown="1">
   
-<summary markdown="1">🔍 See full case study</summary>
+<summary markdown="1">
+🔍 See full case study
+</summary>
   
 ## 🔧 What I Did
 1. **Schema Integration** — Joined 6 tables (sales, products, categories, territories, campaigns) using `clave_territorio` and `clave_producto`
@@ -159,7 +161,9 @@ Determine where a development bank should invest in transport infrastructure by 
 
 <details markdown="1">
   
-<summary markdown="1">🔍 See full case study</summary>
+<summary markdown="1">
+🔍 See full case study
+</summary>
   
 - **Data Integration** — Merged TomTom traffic records with OECD city economic indicators using city and year keys
 - - **Data Cleaning** — Standardized column formats, parsed European numeric formatting, converted timestamps, filtered to 2024
@@ -200,7 +204,9 @@ Identify corruption risk in public procurement across 260+ Mexican federal insti
 
 <details markdown="1">
   
-<summary markdown="1">🔍 See full case study</summary>
+<summary markdown="1">
+🔍 See full case study
+</summary>
   
 ## 🔧 What I Did
 1. **Research Support** — Supported the IRC project in a research capacity, focused on interpreting procurement risk findings
@@ -237,7 +243,9 @@ Explore four plausible futures for the global humanitarian aid system by 2040, t
 
 <details markdown="1">
   
-<summary markdown="1">🔍 See full case study</summary>
+<summary markdown="1">
+🔍 See full case study
+</summary>
   
 ## 🧭 Scenario Matrix
 
@@ -288,7 +296,9 @@ Actor mapping and strategic intelligence under conditions of high uncertainty fo
 
 <details markdown="1">
   
-<summary markdown="1">🔍 See full case study</summary>
+<summary markdown="1">
+🔍 See full case study
+</summary>
   
 ## 🛠️ Key Methodologies
 OSINT | Strategic Intelligence | Qualitative Risk Analysis
@@ -309,7 +319,9 @@ Build a foresight-based framework to turn uncertainty into opportunity for Nuevo
 
 <details markdown="1">
   
-<summary markdown="1">🔍 See full case study</summary>
+<summary markdown="1">
+🔍 See full case study
+</summary>
   
 ## 🔧 What I Did
 1. **Workshop Design & Facilitation** — Designed and led strategic foresight workshops with creative-sector actors and key decision-makers
