@@ -104,7 +104,7 @@ to { opacity: 1; }
 <!-- Este contenedor empieza como 'active' para mostrarse por defecto -->
 <div class="project-wrapper bi active" markdown="1">
 
-# 1. Territorial Profitability Analysis — Adventure Works
+# Territorial Profitability Analysis — Adventure Works
 
 ## 🎯 Objective
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
@@ -112,6 +112,10 @@ Determine where to allocate marketing spend for maximum ROI across territories b
 [![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
 [![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Infographic_AdventureWorks_EN_v2.pdf)
 
+<details markdown="1">
+  
+<summary markdown="1">🔍 See full case study</summary>
+  
 ## 🔧 What I Did
 1. **Schema Integration** — Joined 6 tables (sales, products, categories, territories, campaigns) using `clave_territorio` and `clave_producto`
 2. **Data Cleaning** — Calculated `ingreso_total` and `costo_total` per order, handled NULLs with COALESCE
@@ -141,9 +145,11 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 
 **Recommendation:** Reallocate ~$500K from underperforming EU/CA markets to USA/Australia for 30–40% ROI improvement.
 
+</details>
+
 ---
 
-# 2. Urban Mobility & Economic Productivity — Latin America
+# Urban Mobility & Economic Productivity — Latin America
 
 ## 🎯 Objective
 Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
@@ -151,8 +157,12 @@ Determine where a development bank should invest in transport infrastructure by 
 [![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
 [![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
 
+<details markdown="1">
+  
+<summary markdown="1">🔍 See full case study</summary>
+  
 - **Data Integration** — Merged TomTom traffic records with OECD city economic indicators using city and year keys
-- **Data Cleaning** — Standardized column formats, parsed European numeric formatting, converted timestamps, filtered to 2024
+- - **Data Cleaning** — Standardized column formats, parsed European numeric formatting, converted timestamps, filtered to 2024
 - **Aggregation** — Grouped traffic records by city to calculate mean delay, congestion, and travel-time metrics per city-year
 - **Analysis** — Computed a congestion-to-productivity ratio and ran correlation analysis across GDP, congestion, unemployment, and population
 
@@ -179,13 +189,19 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 
 **Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
 
+</details>
+
 ---
 
-# 5. Índice de Riesgos de Corrupción (IRC) — IMCO
+# Índice de Riesgos de Corrupción (IRC) — IMCO
 
 ## 🎯 Objective
 Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
 
+<details markdown="1">
+  
+<summary markdown="1">🔍 See full case study</summary>
+  
 ## 🔧 What I Did
 1. **Research Support** — Supported the IRC project in a research capacity, focused on interpreting procurement risk findings
 2. **Results Presentation** — Helped translate analytical results into clear insights and presentation materials for public policy audiences
@@ -205,6 +221,8 @@ R (data analysis) | Tableau (interactive dashboard) | Public policy & governance
 ## 💡 Key Insight
 Between 2018 and 2020, corruption risk increased in 147 of 247 federal institutions (59%), driven by weak competition, low transparency, and non-compliance. The tool was adopted as a reference in Mexican public policy debates on transparency and institutional integrity.
 
+</details>
+
 </div>
 
 <!-- ==========================================
@@ -212,11 +230,15 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 ========================================== -->
 <div class="project-wrapper foresight" markdown="1">
 
-# 3. Future of Aid 2040 — IARAN
+# Future of Aid 2040 — IARAN
 
 ## 🎯 Objective
 Explore four plausible futures for the global humanitarian aid system by 2040, translating foresight into strategy for organizations navigating funding cuts, politicization, and systemic uncertainty.
 
+<details markdown="1">
+  
+<summary markdown="1">🔍 See full case study</summary>
+  
 ## 🧭 Scenario Matrix
 
 Four scenarios mapped across two axes: network cooperation vs. survival of the fittest, and multipolar blocs vs. empires and conflict.
@@ -255,23 +277,40 @@ Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenari
 ## 💡 Key Insight
 Synthesizing 877+ voices from 50+ organizations — most from the Global South — into four scenario frameworks and an organizational toolkit for humanitarian resilience under high uncertainty.
 
+</details>
+
 ---
 
-# 4. Geopolitical Risk & Horizon Scanning
+# Geopolitical Risk & Horizon Scanning
 
 ## 🎯 Objective
 Actor mapping and strategic intelligence under conditions of high uncertainty for executive decision-making.
 
+<details markdown="1">
+  
+<summary markdown="1">🔍 See full case study</summary>
+  
 ## 🛠️ Key Methodologies
 OSINT | Strategic Intelligence | Qualitative Risk Analysis
 
+</details>
+
 ---
 
-# 6. Tierra Incógnita: The Future of the Creative Economy — Nuevo León
+# Tierra Incógnita: The Future of the Creative Economy — Nuevo León
 
 ## 🎯 Objective
 Build a foresight-based framework to turn uncertainty into opportunity for Nuevo León's creative and cultural industries, facing accelerated digital disruption, AI integration, and post-pandemic pressure.
 
+[![View Project at CONL](https://img.shields.io/badge/🔗_View_Project_at_CONL-100000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://conl.mx/proyectos/tierra-incognita-insertar-a-las-industrias-creativas-en-cadenas-de-valor-complejas-en-nl/)
+[![One Pager](https://img.shields.io/badge/📄_One_Pager-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_OnePager.pdf)
+[![Full Report](https://img.shields.io/badge/📄_Full_Report-0366D6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_DocumentoCompleto.pdf)
+
+
+<details markdown="1">
+  
+<summary markdown="1">🔍 See full case study</summary>
+  
 ## 🔧 What I Did
 1. **Workshop Design & Facilitation** — Designed and led strategic foresight workshops with creative-sector actors and key decision-makers
 2. **Policy Translation** — Translated the foresight exercise into an actionable public policy framework (Logical Framework Approach)
@@ -280,11 +319,10 @@ Build a foresight-based framework to turn uncertainty into opportunity for Nuevo
 Horizon Scanning | Scenario Building | Strategic Facilitation | Logical Framework Approach
 
 ## 📊 Deliverables
-[![View Project at CONL](https://img.shields.io/badge/🔗_View_Project_at_CONL-100000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://conl.mx/proyectos/tierra-incognita-insertar-a-las-industrias-creativas-en-cadenas-de-valor-complejas-en-nl/)
-[![One Pager](https://img.shields.io/badge/📄_One_Pager-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_OnePager.pdf)
-[![Full Report](https://img.shields.io/badge/📄_Full_Report-0366D6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_DocumentoCompleto.pdf)
 
 Horizon scanning report for the creative economy | 4 future scenarios for Nuevo León's creative industries | Public policy framework (Logical Framework Approach) | Published strategic policy report
+
+</details>
 
 </div>
 
