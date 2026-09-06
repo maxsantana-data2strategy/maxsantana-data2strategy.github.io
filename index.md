@@ -42,9 +42,8 @@ Tech Stack: SQL, Python, R, Power BI, Tableau
 * Currently building practical case studies and projects through the Applied AI and Data Science Program from MIT
 
 ### 📁 Projects
-### 📁 Projects
 
-<!-- Estilos CSS -->
+!-- Estilos CSS -->
 <style>
   .filter-buttons {
     display: flex;
@@ -76,7 +75,7 @@ Tech Stack: SQL, Python, R, Power BI, Tableau
     color: #ffffff;
   }
 
-  /* Ocultar proyectos por defecto mediante CSS */
+  /* Visibilidad de los proyectos */
   .project-wrapper {
     display: none;
   }
@@ -132,6 +131,8 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 **USA leads with 75.8% ROI** on $1.92M spend. **Australia (49.2% ROI) punches above weight.** **UK underperforms** with only 22.1% ROI despite $2.3M investment. All margins healthy (41–45%), but ROI divergence driven by **marketing spend efficiency.**
 
 **Recommendation:** Reallocate ~$500K from underperforming EU/CA markets to USA/Australia for 30–40% ROI improvement.
+
+---
 
 # 2. Urban Mobility & Economic Productivity — Latin America
 
@@ -198,17 +199,19 @@ OSINT | Strategic Intelligence | Qualitative Risk Analysis
 <!-- Lógica JavaScript -->
 <script>
   function filterProjects(category, btnElement) {
-    // 1. Cambiar estado activo en los botones
-    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    var buttons = document.querySelectorAll('.filter-btn');
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove('active');
+    }
     btnElement.classList.add('active');
 
-    // 2. Mostrar/Ocultar contenedores
-    document.querySelectorAll('.project-wrapper').forEach(wrapper => {
-      if (wrapper.classList.contains(category)) {
-        wrapper.classList.add('active');
+    var wrappers = document.querySelectorAll('.project-wrapper');
+    for (var j = 0; j < wrappers.length; j++) {
+      if (wrappers[j].classList.contains(category)) {
+        wrappers[j].classList.add('active');
       } else {
-        wrapper.classList.remove('active');
+        wrappers[j].classList.remove('active');
       }
-    });
+    }
   }
 </script>
