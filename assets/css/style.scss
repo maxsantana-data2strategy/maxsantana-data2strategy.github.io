@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.toc-sidebar {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.toc-sidebar .toc-title {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #999;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.toc-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc-sidebar li {
+  margin: 0 0 8px;
+}
+
+.toc-sidebar a {
+  font-size: 13px;
+  color: #676767;
+}
+
+.toc-sidebar a:hover,
+.toc-sidebar a:focus {
+  color: #267CB9;
+}
