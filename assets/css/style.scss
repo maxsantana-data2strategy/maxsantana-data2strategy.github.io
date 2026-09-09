@@ -37,3 +37,15 @@
 .toc-sidebar a:focus {
   color: #267CB9;
 }
+
+
+header#top {
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+header#top img {
+  max-width: 160px;
+  height: auto;
+}
