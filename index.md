@@ -241,6 +241,9 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 ## 🎯 Objective
 Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
 
+[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/risk-corruption-index-IMCO)
+[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/risk-corruption-index-IMCO/main/assets/Infographic_IRC_IMCO_EN.jpg)
+
 <details markdown="1">
   
 <summary markdown="1">
