@@ -275,6 +275,13 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 </details>
 
+</div>
+
+<!-- ==========================================
+4. Contenedor: Foresight
+========================================== -->
+<div class="project-wrapper foresight" markdown="1">
+
 ---
 
 # AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026)
@@ -290,6 +297,7 @@ Identify and classify geopolitical risk signals for Mexico using AI-assisted NLP
 
 <summary markdown="1">
 🔍 See full case study
+</summary>
 
 ## 🔧 What I Did
 1. **Signal Collection** — Gathered 43 geopolitical signals from OSINT sources relevant to Mexico's strategic risk environment
@@ -314,12 +322,6 @@ Python (pandas, transformers, zero-shot classification) | matplotlib, seaborn | 
 
 </details>
 
-</div>
-
-<!-- ==========================================
-4. Contenedor: Foresight
-========================================== -->
-<div class="project-wrapper foresight" markdown="1">
 
 # Future of Aid 2040 — IARAN
 
