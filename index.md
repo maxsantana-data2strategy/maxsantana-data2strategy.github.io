@@ -275,6 +275,45 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 </details>
 
+---
+
+# AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026)
+
+![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
+
+## 🎯 Objective
+Identify and classify geopolitical risk signals for Mexico using AI-assisted NLP horizon scanning — transforming 43 raw signals into structured risk drivers for executive decision-making.
+
+[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx)
+
+<details markdown="1">
+
+<summary markdown="1">
+🔍 See full case study
+
+## 🔧 What I Did
+1. **Signal Collection** — Gathered 43 geopolitical signals from OSINT sources relevant to Mexico's strategic risk environment
+2. **AI Classification** — Applied NLP-based zero-shot classification to group signals into thematic risk drivers
+3. **Expert Validation** — Compared AI-generated groupings against expert-defined taxonomy; alignment reached ~78%
+4. **Visual Analysis** — Mapped signals by impact/uncertainty and plotted drivers by risk vs. novelty scores
+
+## 🛠️ Technologies
+Python (pandas, transformers, zero-shot classification) | matplotlib, seaborn | OSINT research | Jupyter Notebook
+
+## 📊 Results
+43 signals → 7 drivers identified. AI classification aligned with expert grouping in ~78% of cases. Security-related drivers dominate; regulatory fragmentation and supply chain risk are secondary clusters.
+
+![Impact/Uncertainty Matrix — 43 geopolitical signals plotted by impact and uncertainty](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx/blob/main/figures/fig1_miu.png?raw=true)
+
+![Risk vs. Novelty by Driver — highest-novelty drivers have lowest risk scores, revealing the novelty penalty](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx/blob/main/figures/fig2_drivers.png?raw=true)
+
+## 💡 Key Insight
+**AI classification matched expert grouping in 78% of cases** — validating automated horizon scanning as a viable first-pass tool for geopolitical risk analysis. The "novelty penalty" pattern (highest-novelty drivers score lowest on risk) suggests that emerging threats are systematically underweighted in traditional risk frameworks.
+
+**Implication:** Analysts and decision-makers should actively adjust for novelty bias when prioritizing risk responses.
+
+</details>
+
 </div>
 
 <!-- ==========================================
