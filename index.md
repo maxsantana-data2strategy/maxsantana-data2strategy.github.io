@@ -376,24 +376,6 @@ Synthesizing 877+ voices from 50+ organizations — most from the Global South �
 
 ---
 
-# Geopolitical Risk & Horizon Scanning
-
-## 🎯 Objective
-Actor mapping and strategic intelligence under conditions of high uncertainty for executive decision-making.
-
-<details markdown="1">
-  
-<summary markdown="1">
-🔍 See full case study
-</summary>
-  
-## 🛠️ Key Methodologies
-OSINT | Strategic Intelligence | Qualitative Risk Analysis
-
-</details>
-
----
-
 # Tierra Incógnita: The Future of the Creative Economy — Nuevo León
 
 ## 🎯 Objective
