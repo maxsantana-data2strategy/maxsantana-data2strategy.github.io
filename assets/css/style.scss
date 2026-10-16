@@ -3,17 +3,103 @@
 
 @import "{{ site.theme }}";
 
+/* ==========================================================================
+   DARK THEME — black canvas, navy + gold brand accents
+   Overrides jekyll-theme-minimal so the page matches the section banners.
+   Palette: black #000 · surface #0B0B0D · navy #1B2847 · gold #B8893A
+   ========================================================================== */
+
+:root {
+  --bg: #000000;
+  --surface: #0b0b0d;
+  --surface-2: #111218;
+  --border: #23252d;
+  --navy: #1b2847;
+  --gold: #b8893a;
+  --gold-soft: #d8a85f;
+  --text: #e8eaed;
+  --text-dim: #9ea5b2;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg) !important;
+  background-color: var(--bg) !important;
+  background-image: none !important;
+  color: var(--text);
+}
+
+.wrapper {
+  background: var(--bg);
+}
+
+/* ---------- Sidebar / header ---------- */
+
+header {
+  color: var(--text);
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+header h2,
+header p,
+header .view,
+header ul li a small {
+  color: var(--text-dim);
+}
+
+header img {
+  border-radius: 6px;
+}
+
+header ul {
+  background: var(--surface-2);
+  background-image: none;
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+
+header ul li {
+  border-right: 1px solid var(--border);
+}
+
+header ul li + li {
+  border-left: 1px solid #000;
+}
+
+header ul li a strong {
+  color: var(--text);
+}
+
+header#top {
+  max-height: calc(100vh - 170px);
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+header#top img {
+  max-width: 160px;
+  height: auto;
+}
+
+/* ---------- Table of contents ---------- */
+
 .toc-sidebar {
   margin-top: 25px;
   padding-top: 15px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid var(--border);
 }
 
 .toc-sidebar .toc-title {
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 1px;
-  color: #999;
+  color: var(--gold);
   margin: 0 0 10px;
   font-weight: 700;
 }
@@ -30,21 +116,209 @@
 
 .toc-sidebar a {
   font-size: 13px;
-  color: #676767;
+  color: var(--text-dim);
 }
 
 .toc-sidebar a:hover,
 .toc-sidebar a:focus {
-  color: #267CB9;
+  color: var(--gold);
 }
 
-header#top {
-  max-height: calc(100vh - 170px);
-  overflow-y: auto;
-  padding-right: 8px;
+/* ---------- Content ---------- */
+
+section {
+  color: var(--text);
 }
 
-header#top img {
-  max-width: 160px;
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+h2 {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+}
+
+p, li, td, th, dd {
+  color: var(--text);
+}
+
+strong {
+  color: #ffffff;
+}
+
+a {
+  color: var(--gold);
+}
+
+a:hover,
+a:focus {
+  color: #e0b25f;
+}
+
+blockquote {
+  border-left: 3px solid var(--gold);
+  color: var(--text-dim);
+}
+
+hr {
+  background: var(--border);
+  border: 0;
+  height: 1px;
+  background-image: none;
+}
+
+code, pre {
+  color: #e6edf3;
+}
+
+code {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+pre {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  background: var(--navy);
+  color: #ffffff;
+  border: 1px solid var(--border);
+}
+
+table td {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+table tr:nth-child(even) td {
+  background: var(--surface-2);
+}
+
+dt {
+  color: #ffffff;
+}
+
+footer {
+  color: var(--text-dim);
+  border-top: 1px solid var(--border);
+}
+
+footer a {
+  color: var(--gold);
+}
+
+/* ---------- Project filter tabs ---------- */
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0 28px 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-dim);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover {
+  background-color: var(--surface-2);
+  color: #ffffff;
+}
+
+.filter-btn.active {
+  background-color: var(--navy);
+  border-color: var(--gold);
+  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(184, 137, 58, 0.18);
+}
+
+/* ---------- Project containers ---------- */
+
+.project-wrapper {
+  display: none;
+  animation: fadeIn 0.4s;
+}
+
+.project-wrapper.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- Section banner + intro ---------- */
+
+.section-banner {
+  width: 100%;
   height: auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+
+.section-intro {
+  color: var(--text-dim);
+  font-size: 16px;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding: 2px 0 2px 16px;
+  margin: 0 0 34px 0;
+}
+
+.section-intro strong {
+  color: #ffffff;
+}
+
+/* ---------- Case-study disclosure ---------- */
+
+details {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0 18px;
+  margin: 14px 0 26px 0;
+}
+
+details[open] {
+  padding-bottom: 10px;
+}
+
+details > summary {
+  cursor: pointer;
+  color: var(--gold);
+  font-weight: 600;
+  padding: 14px 0;
+  list-style-position: inside;
+}
+
+details > summary:hover {
+  color: #e0b25f;
+}
+
+img {
+  max-width: 100%;
 }
