@@ -371,3 +371,31 @@ details > summary:hover {
 img {
   max-width: 100%;
 }
+
+/* ---------- Content figures (light-background charts) ---------- */
+
+section p > img:not(.section-banner),
+section p > a > img.figure {
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  border: 1px solid var(--border-lit);
+  background: var(--surface-2);
+  padding: 8px;
+  opacity: 0.9;
+  transition: opacity 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+section p > img:not(.section-banner):hover {
+  opacity: 1;
+  box-shadow: 0 0 18px rgba(0, 233, 216, 0.14);
+}
+
+/* badges keep their own look */
+section p > a > img {
+  border: 0;
+  background: none;
+  padding: 0;
+  opacity: 1;
+  border-radius: 0;
+}
