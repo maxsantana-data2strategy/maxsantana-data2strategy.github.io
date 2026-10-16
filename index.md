@@ -47,9 +47,9 @@ Hi there 👋, welcome to my portfolio
 ========================================== -->
 <div class="project-wrapper bi active" markdown="1">
 
-<img class="section-banner" src="/assets/img/banner-data-bi.svg" alt="Data Analysis and BI — portfolio section banner">
+<img class="section-banner" src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy/main/banner-data-analysis.gif" alt="Animated banner: a scatter plot resolving into a regression line, bar chart and correlation metric">
 
-<p class="section-intro"><strong>Business questions answered with operational data.</strong> These projects start where most organisations actually are — messy transactional records, sentinel values, disconnected tables — and end at a decision someone can sign off on: where to move marketing spend, which customers to monetise, where a development bank should build, which institutions carry procurement risk, which homepage to ship. SQL, Python and R for the analysis; Tableau and Power BI for the hand-off. Every case states the business question first and closes with a recommendation, not a chart.</p>
+<p class="section-intro">Work that starts from a business question and ends with a decision someone can defend. Cleaning, modeling, and dashboard design across customer behavior, territorial profitability, experimentation, and public-sector indicators.</p>
 
 # Territorial Profitability Analysis — Adventure Works
 
@@ -323,9 +323,9 @@ Python (pandas, numpy) | `scipy.stats` (`levene`, Welch `ttest_ind`, `chi2_conti
 ========================================== -->
 <div class="project-wrapper ds" markdown="1">
 
-<img class="section-banner" src="/assets/img/banner-data-science.svg" alt="Data Science — portfolio section banner">
+<img class="section-banner" src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy/main/banner-data-science.gif" alt="Animated banner: a classifier searching for a decision boundary, with loss curve and confusion matrix">
 
-<p class="section-intro"><strong>Method under uncertainty.</strong> Where the analyses above answer a question the data already contains, this work asks whether a model can anticipate what the data has not shown yet — compressing a nine-maturity yield curve into its common structure with PCA, forecasting it with VAR, and measuring the result against a benchmark that is genuinely hard to beat. The missing-data treatment is reported as part of the result, and the tests that were not run are stated explicitly rather than implied.</p>
+<p class="section-intro">Where description gives way to modeling — estimating what is likely, what is uncertain, and how much the data can actually support. Methods chosen to fit the problem, validated against data they haven’t seen, and reported with their limits rather than without them.</p>
 
 # Forecasting the Mexican Yield Curve — PCA and Out-of-Sample Evaluation
 
@@ -385,9 +385,9 @@ Python (pandas, numpy) | `sklearn.decomposition.PCA` | `statsmodels.tsa.api.VAR`
 ========================================== -->
 <div class="project-wrapper foresight" markdown="1">
 
-<img class="section-banner" src="/assets/img/banner-foresight.svg" alt="Strategic Foresight — portfolio section banner">
+<img class="section-banner" src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy/main/banner-foresight.gif" alt="Animated banner: a three-dimensional futures cone branching into four named scenarios, with a wild card breaking outside the cone">
 
-<p class="section-intro"><strong>Anticipation as a strategic discipline.</strong> These projects deal with what has not happened yet. Horizon scanning, Causal Layered Analysis, scenario building and stakeholder facilitation — applied to geopolitical risk in Mexico, the global humanitarian aid system to 2040, and the creative economy of Nuevo León. The output is never a prediction: it is a structured set of plausible futures and the strategic options each one demands.</p>
+<p class="section-intro">Not forecasting. The goal is not to predict the future but to see its possibilities and shape it. Driver analysis, scenario building, and horizon scanning used to stress-test strategy under deep uncertainty.</p>
 
 # AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026)
 
