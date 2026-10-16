@@ -47,7 +47,7 @@ Hi there 👋, welcome to my portfolio
 ========================================== -->
 <div class="project-wrapper bi active" markdown="1">
 
-<img class="section-banner" src="/assets/img/banner-data-bi.png" alt="Data Analysis and BI — portfolio section banner">
+<img class="section-banner" src="/assets/img/banner-data-bi.svg" alt="Data Analysis and BI — portfolio section banner">
 
 <p class="section-intro"><strong>Business questions answered with operational data.</strong> These projects start where most organisations actually are — messy transactional records, sentinel values, disconnected tables — and end at a decision someone can sign off on: where to move marketing spend, which customers to monetise, where a development bank should build, which institutions carry procurement risk, which homepage to ship. SQL, Python and R for the analysis; Tableau and Power BI for the hand-off. Every case states the business question first and closes with a recommendation, not a chart.</p>
 
@@ -323,7 +323,7 @@ Python (pandas, numpy) | `scipy.stats` (`levene`, Welch `ttest_ind`, `chi2_conti
 ========================================== -->
 <div class="project-wrapper ds" markdown="1">
 
-<img class="section-banner" src="/assets/img/banner-data-science.png" alt="Data Science — portfolio section banner">
+<img class="section-banner" src="/assets/img/banner-data-science.svg" alt="Data Science — portfolio section banner">
 
 <p class="section-intro"><strong>Method under uncertainty.</strong> Where the analyses above answer a question the data already contains, this work asks whether a model can anticipate what the data has not shown yet — compressing a nine-maturity yield curve into its common structure with PCA, forecasting it with VAR, and measuring the result against a benchmark that is genuinely hard to beat. The missing-data treatment is reported as part of the result, and the tests that were not run are stated explicitly rather than implied.</p>
 
@@ -385,7 +385,7 @@ Python (pandas, numpy) | `sklearn.decomposition.PCA` | `statsmodels.tsa.api.VAR`
 ========================================== -->
 <div class="project-wrapper foresight" markdown="1">
 
-<img class="section-banner" src="/assets/img/banner-foresight.png" alt="Strategic Foresight — portfolio section banner">
+<img class="section-banner" src="/assets/img/banner-foresight.svg" alt="Strategic Foresight — portfolio section banner">
 
 <p class="section-intro"><strong>Anticipation as a strategic discipline.</strong> These projects deal with what has not happened yet. Horizon scanning, Causal Layered Analysis, scenario building and stakeholder facilitation — applied to geopolitical risk in Mexico, the global humanitarian aid system to 2040, and the creative economy of Nuevo León. The output is never a prediction: it is a structured set of plausible futures and the strategic options each one demands.</p>
 
