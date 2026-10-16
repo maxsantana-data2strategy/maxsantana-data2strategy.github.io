@@ -56,8 +56,8 @@ Hi there 👋, welcome to my portfolio
 ## 🎯 Objective
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
 
-[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
-[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Infographic_AdventureWorks_EN_v2.pdf)
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-FB2E89?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/adventure-works-profitability-analysis-SQL/main/outputs/assets/Infographic_AdventureWorks_EN_v2.pdf)
 
 <details markdown="1">
   
@@ -103,8 +103,8 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 ## 🎯 Objective
 Determine which customers drive the most value for a Latin American telecom by cleaning usage data, resolving data-quality issues, and segmenting customers by usage intensity and age.
 
-[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/connectatel-customer-behavior-analysis)
-[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/connectatel-customer-behavior-analysis/main/assets/Infographic_ConnectaTel_EN.pdf)
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/connectatel-customer-behavior-analysis)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-FB2E89?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/connectatel-customer-behavior-analysis/main/assets/Infographic_ConnectaTel_EN.pdf)
 
 <details markdown="1">
 
@@ -142,8 +142,8 @@ Python (pandas, numpy) | seaborn, matplotlib | IQR & Z-score outlier detection |
 ## 🎯 Objective
 Identify which customer behaviors are most strongly associated with the annual revenue each of 15,000 e-commerce customers generates — matching the correlation coefficient to the variable type, and separating statistical significance from practical relevance.
 
-[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis)
-[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis/main/assets/Infographic_NovaRetail_EN.pdf)
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-FB2E89?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis/main/assets/Infographic_NovaRetail_EN.pdf)
 
 <details markdown="1">
 
@@ -189,8 +189,8 @@ Python (pandas, numpy) | `scipy.stats` (`spearmanr`, `pointbiserialr`, `chi2_con
 ## 🎯 Objective
 Decide which homepage version an e-commerce platform should implement, using a 40,000-user, 28-day experiment — with each comparison matched to a test its assumptions actually justify.
 
-[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/landing-page-ab-test-analysis)
-[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/landing-page-ab-test-analysis/main/assets/Infographic_LandingAB_EN.pdf)
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/landing-page-ab-test-analysis)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-FB2E89?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/landing-page-ab-test-analysis/main/assets/Infographic_LandingAB_EN.pdf)
 
 <details markdown="1">
 
@@ -237,8 +237,8 @@ Python (pandas, numpy) | `scipy.stats` (`levene`, Welch `ttest_ind`, `chi2_conti
 ## 🎯 Objective
 Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
 
-[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
-[![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
+[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
+[![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-FB2E89?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
 
 <details markdown="1">
   
@@ -283,8 +283,8 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 ## 🎯 Objective
 Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
 
-[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/risk-corruption-index-IMCO)
-[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/risk-corruption-index-IMCO/main/assets/Infographic_IRC_IMCO_EN.jpg)
+[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/risk-corruption-index-IMCO)
+[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-FB2E89?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/risk-corruption-index-IMCO/main/assets/Infographic_IRC_IMCO_EN.jpg)
 
 <details markdown="1">
   
@@ -301,8 +301,8 @@ Identify corruption risk in public procurement across 260+ Mexican federal insti
 R (data analysis) | Tableau (interactive dashboard) | Public policy & governance research
 
 ## 📊 Results
-[![View IRC Report](https://img.shields.io/badge/📄_View_IRC_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://imco.org.mx/indice-de-riesgos-de-corrupcion/)
-[![View Interactive Dashboard](https://img.shields.io/badge/📊_View_Interactive_Dashboard-2EA44F?style=for-the-badge&logo=tableau&logoColor=white)](https://imco.org.mx/riesgosdecorrupcion)
+[![View IRC Report](https://img.shields.io/badge/📄_View_IRC_Report-0A0E14?style=for-the-badge&logo=readthedocs&logoColor=00E9D8)](https://imco.org.mx/indice-de-riesgos-de-corrupcion/)
+[![View Interactive Dashboard](https://img.shields.io/badge/📊_View_Interactive_Dashboard-FB2E89?style=for-the-badge&logo=tableau&logoColor=white)](https://imco.org.mx/riesgosdecorrupcion)
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/imco-irc-dashboard.png" alt="IRC dashboard — public procurement risk by institution" width="700">
@@ -332,9 +332,9 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 ## 🎯 Objective
 Test whether the common structure of Mexico's nominal yield curve — nine CETES and MBONOS maturities, 240 months — forecasts better than simply assuming rates stay where they are.
 
-[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/forecasting-mexican-yield-curve)
-[![Read the Notebook](https://img.shields.io/badge/📓_Read_the_Notebook-0366D6?style=for-the-badge&logo=jupyter&logoColor=white)](https://maxsantana-data2strategy.github.io/forecasting-mexican-yield-curve/analisis_curva_banxico_notebook.html)
-[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/forecasting-mexican-yield-curve/main/assets/Infographic_YieldCurve_EN.jpg)
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/forecasting-mexican-yield-curve)
+[![Read the Notebook](https://img.shields.io/badge/📓_Read_the_Notebook-056B67?style=for-the-badge&logo=jupyter&logoColor=white)](https://maxsantana-data2strategy.github.io/forecasting-mexican-yield-curve/analisis_curva_banxico_notebook.html)
+[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-FB2E89?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/forecasting-mexican-yield-curve/main/assets/Infographic_YieldCurve_EN.jpg)
 
 <details markdown="1">
 
@@ -391,13 +391,13 @@ Python (pandas, numpy) | `sklearn.decomposition.PCA` | `statsmodels.tsa.api.VAR`
 
 # Can AI Group Geopolitical Risk Signals Like an Expert — Mexico · Python NLP
 
-![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
+![In Progress](https://img.shields.io/badge/Status-In_Progress-FB2E89?style=for-the-badge)
 
 
 ## 🎯 Objective
 Identify and classify geopolitical risk signals for Mexico using AI-assisted NLP horizon scanning — transforming 43 raw signals into structured risk drivers for executive decision-making.
 
-[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx)
+[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-0A0E14?style=for-the-badge&logo=github&logoColor=00E9D8)](https://github.com/maxsantana-data2strategy/horizon-scanning-geopolitical-risk-mx)
 
 <details markdown="1">
 
@@ -471,9 +471,9 @@ Strategic Foresight | Horizon Scanning | Causal Layered Analysis (CLA) | Scenari
 <img src="https://images.squarespace-cdn.com/content/v1/593eb9e7b8a79bc4102fd8aa/1778567241580-LWEGEV0TLR4BWCYQCVRC/b01850018.jpg" alt="Pathways to Transformation — From Analysis to Action" width="180">
 </p>
 
-[![Scenarios Report](https://img.shields.io/badge/📄_Scenarios_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_Scenarios_Report.pdf)
-[![Unpacking the Aid System](https://img.shields.io/badge/📄_Unpacking_the_Aid_System-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_UnpackingAidSystem_CLA.pdf)
-[![Pathways to Transformation](https://img.shields.io/badge/📄_Pathways_to_Transformation-0366D6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_P2T_AnalysisToAction.pdf)
+[![Scenarios Report](https://img.shields.io/badge/📄_Scenarios_Report-0A0E14?style=for-the-badge&logo=readthedocs&logoColor=00E9D8)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_Scenarios_Report.pdf)
+[![Unpacking the Aid System](https://img.shields.io/badge/📄_Unpacking_the_Aid_System-FB2E89?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_UnpackingAidSystem_CLA.pdf)
+[![Pathways to Transformation](https://img.shields.io/badge/📄_Pathways_to_Transformation-056B67?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/future-of-aid/FutureOfAid2040_P2T_AnalysisToAction.pdf)
 
 ## 💡 Key Insight
 Synthesizing 877+ voices from 50+ organizations — most from the Global South — into four scenario frameworks and an organizational toolkit for humanitarian resilience under high uncertainty.
@@ -487,9 +487,9 @@ Synthesizing 877+ voices from 50+ organizations — most from the Global South �
 ## 🎯 Objective
 Build a foresight-based framework to turn uncertainty into opportunity for Nuevo León's creative and cultural industries, facing accelerated digital disruption, AI integration, and post-pandemic pressure.
 
-[![View Project at CONL](https://img.shields.io/badge/🔗_View_Project_at_CONL-100000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://conl.mx/proyectos/tierra-incognita-insertar-a-las-industrias-creativas-en-cadenas-de-valor-complejas-en-nl/)
-[![One Pager](https://img.shields.io/badge/📄_One_Pager-2EA44F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_OnePager.pdf)
-[![Full Report](https://img.shields.io/badge/📄_Full_Report-0366D6?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_DocumentoCompleto.pdf)
+[![View Project at CONL](https://img.shields.io/badge/🔗_View_Project_at_CONL-0A0E14?style=for-the-badge&logo=googlechrome&logoColor=00E9D8)](https://conl.mx/proyectos/tierra-incognita-insertar-a-las-industrias-creativas-en-cadenas-de-valor-complejas-en-nl/)
+[![One Pager](https://img.shields.io/badge/📄_One_Pager-FB2E89?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_OnePager.pdf)
+[![Full Report](https://img.shields.io/badge/📄_Full_Report-056B67?style=for-the-badge&logo=readthedocs&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/docs/tierra-incognita/TierraIncognita_DocumentoCompleto.pdf)
 
 
 <details markdown="1">
