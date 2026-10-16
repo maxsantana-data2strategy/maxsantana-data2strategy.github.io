@@ -51,7 +51,7 @@ Hi there 👋, welcome to my portfolio
 
 <p class="section-intro">Work that starts from a business question and ends with a decision someone can defend. Cleaning, modeling, and dashboard design across customer behavior, territorial profitability, experimentation, and public-sector indicators.</p>
 
-# Territorial Profitability Analysis — Adventure Works
+# Where to Concentrate Marketing Spend Across Six Markets — Cycling Retail · SQL
 
 ## 🎯 Objective
 Determine where to allocate marketing spend for maximum ROI across territories by analyzing revenue, costs, and marketing investment.
@@ -98,7 +98,7 @@ SQL (JOINs, GROUP BY, aggregations, COALESCE, NULLIF) | Relational database with
 
 ---
 
-# ConnectaTel — Customer Behavior & Usage Segmentation
+# Which Customers Drive Value in Messy Usage Data — Telecom · Python
 
 ## 🎯 Objective
 Determine which customers drive the most value for a Latin American telecom by cleaning usage data, resolving data-quality issues, and segmenting customers by usage intensity and age.
@@ -137,7 +137,7 @@ Python (pandas, numpy) | seaborn, matplotlib | IQR & Z-score outlier detection |
 
 ---
 
-# NovaRetail+ — Behavioral Factors Associated with Annual Revenue
+# Which Customer Behaviors Track Annual Revenue — E-Commerce · Python & SciPy
 
 ## 🎯 Objective
 Identify which customer behaviors are most strongly associated with the annual revenue each of 15,000 e-commerce customers generates — matching the correlation coefficient to the variable type, and separating statistical significance from practical relevance.
@@ -184,7 +184,7 @@ Python (pandas, numpy) | `scipy.stats` (`spearmanr`, `pointbiserialr`, `chi2_con
 
 ---
 
-# Landing Page A/B Test — Conversion & Revenue Validation
+# Which Homepage Version to Ship — E-Commerce A/B Test · Python & statsmodels
 
 ## 🎯 Objective
 Decide which homepage version an e-commerce platform should implement, using a 40,000-user, 28-day experiment — with each comparison matched to a test its assumptions actually justify.
@@ -232,7 +232,7 @@ Python (pandas, numpy) | `scipy.stats` (`levene`, Welch `ttest_ind`, `chi2_conti
 
 ---
 
-# Urban Mobility & Economic Productivity — Latin America
+# Where a Development Bank Should Fund Transit — 15 LatAm Cities · Python
 
 ## 🎯 Objective
 Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
@@ -278,7 +278,7 @@ The correlation matrix suggests that traffic jam is driven mainly by population 
 
 ---
 
-# Risk Corruption Index (IRC in Spanish) — IMCO
+# Which Federal Institutions Carry Procurement Risk — Public Sector · R & Tableau
 
 ## 🎯 Objective
 Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
@@ -327,7 +327,7 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 <p class="section-intro">Where description gives way to modeling — estimating what is likely, what is uncertain, and how much the data can actually support. Methods chosen to fit the problem, validated against data they haven’t seen, and reported with their limits rather than without them.</p>
 
-# Forecasting the Mexican Yield Curve — PCA Structure & VAR Out-of-Sample Evaluation
+# Does Curve Structure Beat a Naive Forecast — Sovereign Debt · Python (PCA + VAR)
 
 ## 🎯 Objective
 Test whether the common structure of Mexico's nominal yield curve — nine CETES and MBONOS maturities, 240 months — forecasts better than simply assuming rates stay where they are.
@@ -389,7 +389,9 @@ Python (pandas, numpy) | `sklearn.decomposition.PCA` | `statsmodels.tsa.api.VAR`
 
 <p class="section-intro">Not forecasting. The goal is not to predict the future but to see its possibilities and shape it. Driver analysis, scenario building, and horizon scanning used to stress-test strategy under deep uncertainty.</p>
 
-# AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026) — (In - Progress)
+# Can AI Group Geopolitical Risk Signals Like an Expert — Mexico · Python NLP
+
+![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 
 
 ## 🎯 Objective
@@ -427,7 +429,7 @@ Python (pandas, transformers, zero-shot classification) | matplotlib, seaborn | 
 </details>
 
 
-# Future of Aid 2040 — IARAN
+# Four Futures for Humanitarian Aid to 2040 — IARAN · Scenarios & CLA
 
 ## 🎯 Objective
 Explore four plausible futures for the global humanitarian aid system by 2040, translating foresight into strategy for organizations navigating funding cuts, politicization, and systemic uncertainty.
@@ -480,7 +482,7 @@ Synthesizing 877+ voices from 50+ organizations — most from the Global South �
 
 ---
 
-# Tierra Incógnita: The Future of the Creative Economy — Nuevo León
+# Policy Framework for the Creative Economy Under Disruption — Nuevo León · Foresight
 
 ## 🎯 Objective
 Build a foresight-based framework to turn uncertainty into opportunity for Nuevo León's creative and cultural industries, facing accelerated digital disruption, AI integration, and post-pandemic pressure.
