@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 440" width="1800" height="440" role="img">
+<rect width="1800" height="440" fill="#000000"/>
+<rect x="0" y="0" width="9" height="440" fill="#b8893a"/>
+<rect x="110" y="96" width="108" height="5" fill="#b8893a"/>
+<text x="110" y="160" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="5" fill="#b8893a">PORTFOLIO &#183; 03</text>
+<text x="106" y="268" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="86" font-weight="700" fill="#ffffff">Strategic Foresight</text>
+<text x="110" y="336" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="31" fill="#9ea5b2">Structured anticipation: signals, drivers and scenarios for long-range strategy.</text>
+<polygon points="1220,240 1580,75 1580,405" fill="#121b30"/>
+<polygon points="1220,240 1580,125 1580,355" fill="#1a2642"/>
+<polygon points="1220,240 1580,178 1580,302" fill="#263658"/>
+<polyline points="1220,240 1229,240 1238,240 1247,240 1256,239 1265,238 1274,237 1283,236 1292,235 1301,233 1310,232 1319,230 1328,228 1337,226 1346,224 1355,221 1364,218 1373,216 1382,213 1391,210 1400,206 1409,203 1418,200 1427,196 1436,192 1445,188 1454,184 1463,180 1472,176 1481,172 1490,167 1499,162 1508,158 1517,153 1526,148 1535,143 1544,138 1553,133 1562,128 1571,123 1580,118" fill="none" stroke="#6c7a96" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="1580" cy="118" r="7" fill="#6c7a96"/>
+<polyline points="1220,240 1229,241 1238,241 1247,242 1256,243 1265,243 1274,244 1283,244 1292,245 1301,245 1310,246 1319,246 1328,246 1337,247 1346,247 1355,247 1364,247 1373,247 1382,247 1391,246 1400,246 1409,246 1418,245 1427,245 1436,244 1445,244 1454,243 1463,242 1472,242 1481,241 1490,240 1499,239 1508,238 1517,237 1526,236 1535,235 1544,234 1553,233 1562,232 1571,231 1580,230" fill="none" stroke="#b8893a" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="1580" cy="230" r="9" fill="#b8893a"/>
+<polyline points="1220,240 1229,241 1238,243 1247,245 1256,247 1265,249 1274,251 1283,254 1292,256 1301,259 1310,262 1319,264 1328,267 1337,270 1346,273 1355,276 1364,279 1373,282 1382,285 1391,288 1400,291 1409,294 1418,297 1427,300 1436,303 1445,306 1454,309 1463,312 1472,315 1481,318 1490,322 1499,325 1508,328 1517,331 1526,335 1535,338 1544,341 1553,345 1562,348 1571,352 1580,356" fill="none" stroke="#6c7a96" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="1580" cy="356" r="7" fill="#6c7a96"/>
+<circle cx="1220" cy="240" r="11" fill="#000000" stroke="#b8893a" stroke-width="5"/>
+</svg>

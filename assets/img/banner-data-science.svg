@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 440" width="1800" height="440" role="img">
+<rect width="1800" height="440" fill="#000000"/>
+<rect x="0" y="0" width="9" height="440" fill="#b8893a"/>
+<rect x="110" y="96" width="108" height="5" fill="#b8893a"/>
+<text x="110" y="160" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="5" fill="#b8893a">PORTFOLIO &#183; 02</text>
+<text x="106" y="268" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="86" font-weight="700" fill="#ffffff">Data Science</text>
+<text x="110" y="336" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="31" fill="#9ea5b2">Dimension reduction and time-series forecasting, measured out of sample.</text>
+<line x1="1245" y1="80" x2="1245" y2="370" stroke="#30384a" stroke-width="3"/>
+<line x1="1245" y1="370" x2="1620" y2="370" stroke="#30384a" stroke-width="3"/>
+<line x1="1270" y1="340" x2="1590" y2="110" stroke="#465470" stroke-width="4"/>
+<circle cx="1415" cy="164" r="7" fill="#6b7a99"/>
+<circle cx="1419" cy="188" r="7" fill="#2e3f64"/>
+<circle cx="1329" cy="250" r="7" fill="#2e3f64"/>
+<circle cx="1524" cy="182" r="7" fill="#2e3f64"/>
+<circle cx="1299" cy="338" r="10" fill="#b8893a"/>
+<circle cx="1283" cy="418" r="7" fill="#2e3f64"/>
+<circle cx="1479" cy="175" r="7" fill="#2e3f64"/>
+<circle cx="1275" cy="325" r="7" fill="#2e3f64"/>
+<circle cx="1331" cy="297" r="7" fill="#2e3f64"/>
+<circle cx="1418" cy="172" r="7" fill="#6b7a99"/>
+<circle cx="1436" cy="195" r="7" fill="#6b7a99"/>
+<circle cx="1482" cy="161" r="7" fill="#2e3f64"/>
+<circle cx="1589" cy="176" r="7" fill="#2e3f64"/>
+<circle cx="1496" cy="167" r="7" fill="#6b7a99"/>
+<circle cx="1362" cy="326" r="7" fill="#6b7a99"/>
+<circle cx="1398" cy="267" r="7" fill="#6b7a99"/>
+<circle cx="1577" cy="120" r="7" fill="#2e3f64"/>
+<circle cx="1337" cy="324" r="7" fill="#6b7a99"/>
+<circle cx="1584" cy="104" r="7" fill="#2e3f64"/>
+<circle cx="1471" cy="200" r="7" fill="#6b7a99"/>
+<circle cx="1298" cy="276" r="10" fill="#b8893a"/>
+<circle cx="1513" cy="185" r="7" fill="#6b7a99"/>
+<circle cx="1302" cy="373" r="7" fill="#6b7a99"/>
+<circle cx="1327" cy="265" r="7" fill="#2e3f64"/>
+<circle cx="1331" cy="294" r="7" fill="#6b7a99"/>
+<circle cx="1476" cy="218" r="7" fill="#6b7a99"/>
+<circle cx="1338" cy="280" r="10" fill="#b8893a"/>
+<circle cx="1527" cy="132" r="10" fill="#b8893a"/>
+<circle cx="1337" cy="239" r="10" fill="#6b7a99"/>
+<circle cx="1475" cy="275" r="10" fill="#b8893a"/>
+<circle cx="1338" cy="288" r="10" fill="#b8893a"/>
+<circle cx="1375" cy="261" r="7" fill="#2e3f64"/>
+<circle cx="1299" cy="297" r="7" fill="#2e3f64"/>
+<circle cx="1462" cy="176" r="7" fill="#6b7a99"/>
+<circle cx="1577" cy="75" r="7" fill="#2e3f64"/>
+<circle cx="1547" cy="149" r="7" fill="#6b7a99"/>
+<circle cx="1561" cy="142" r="7" fill="#6b7a99"/>
+<circle cx="1331" cy="291" r="10" fill="#b8893a"/>
+<circle cx="1333" cy="362" r="7" fill="#6b7a99"/>
+<circle cx="1463" cy="187" r="7" fill="#2e3f64"/>
+<circle cx="1282" cy="356" r="7" fill="#2e3f64"/>
+<circle cx="1495" cy="175" r="10" fill="#b8893a"/>
+<circle cx="1461" cy="197" r="7" fill="#6b7a99"/>
+<circle cx="1501" cy="197" r="7" fill="#2e3f64"/>
+<circle cx="1449" cy="240" r="10" fill="#6b7a99"/>
+<circle cx="1360" cy="295" r="7" fill="#2e3f64"/>
+</svg>

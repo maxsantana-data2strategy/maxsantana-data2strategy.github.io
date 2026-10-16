@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 440" width="1800" height="440" role="img">
+<rect width="1800" height="440" fill="#000000"/>
+<rect x="0" y="0" width="9" height="440" fill="#b8893a"/>
+<rect x="110" y="96" width="108" height="5" fill="#b8893a"/>
+<text x="110" y="160" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="5" fill="#b8893a">PORTFOLIO &#183; 01</text>
+<text x="106" y="268" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="86" font-weight="700" fill="#ffffff">Data Analysis &amp; BI</text>
+<text x="110" y="336" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="31" fill="#9ea5b2">From raw operational data to the decision a business can act on.</text>
+<rect x="1310" y="280" width="42" height="70" fill="#223256"/>
+<rect x="1378" y="240" width="42" height="110" fill="#3d4463"/>
+<rect x="1446" y="200" width="42" height="150" fill="#6a5f4f"/>
+<rect x="1514" y="150" width="42" height="200" fill="#94743f"/>
+<rect x="1582" y="100" width="42" height="250" fill="#b8893a"/>
+<polyline points="1331,254 1399,214 1467,174 1535,124 1603,74" fill="none" stroke="#b8893a" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="1331" cy="254" r="7" fill="#000000" stroke="#b8893a" stroke-width="4"/>
+<circle cx="1399" cy="214" r="7" fill="#000000" stroke="#b8893a" stroke-width="4"/>
+<circle cx="1467" cy="174" r="7" fill="#000000" stroke="#b8893a" stroke-width="4"/>
+<circle cx="1535" cy="124" r="7" fill="#000000" stroke="#b8893a" stroke-width="4"/>
+<circle cx="1603" cy="74" r="7" fill="#000000" stroke="#b8893a" stroke-width="4"/>
+</svg>
