@@ -137,93 +137,6 @@ Python (pandas, numpy) | seaborn, matplotlib | IQR & Z-score outlier detection |
 
 ---
 
-# Urban Mobility & Economic Productivity — Latin America
-
-## 🎯 Objective
-Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
-
-[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
-[![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
-
-<details markdown="1">
-  
-<summary markdown="1">
-🔍 See full case study
-</summary>
-  
-- **Data Integration** — Merged TomTom traffic records with OECD city economic indicators using city and year keys
-- - **Data Cleaning** — Standardized column formats, parsed European numeric formatting, converted timestamps, filtered to 2024
-- **Aggregation** — Grouped traffic records by city to calculate mean delay, congestion, and travel-time metrics per city-year
-- **Analysis** — Computed a congestion-to-productivity ratio and ran correlation analysis across GDP, congestion, unemployment, and population
-
-## 🛠️ Technologies
-Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation analysis | Jupyter Notebook
-
-## 📊 Results
-
-| City | GDP/Capita | Ratio | Profile |
-|---|---|---|---|
-| 🇨🇴 Bogotá | $11,442 | 0.100 | Highest urgency ⭐ |
-| 🇵🇪 Lima | $13,472 | 0.078 | Highest urgency ⭐ |
-| 🇲🇽 Mexico City | $21,111 | 0.134 | High-scale congestion |
-| 🇧🇷 São Paulo | $14,703 | 0.118 | High-scale congestion |
-| 🇧🇷 Brasília | $16,251 | 0.006 | Efficient benchmark |
-| 🇺🇾 Montevideo | $26,176 | 0.002 | Efficient benchmark |
-
-![Jams delay and GDP per capita by city](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_1.png?raw=true)
-
-## 💡 Key Insight
-The correlation matrix suggests that traffic jam is driven mainly by population size (r = 0.88), not GDP per capita (r = 0.28) as initially expected. Bogotá and Lima combine high traffic friction with lower economic output — the clearest case for investment. Mexico City and São Paulo show the highest absolute congestion, but it's scale-driven, not inefficiency. Montevideo and Brasília stand out as efficient benchmarks.
-
-![Correlation matrix](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_2.png?raw=true)
-
-**Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
-
-</details>
-
----
-
-# Índice de Riesgos de Corrupción (IRC) — IMCO
-
-## 🎯 Objective
-Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
-
-[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/risk-corruption-index-IMCO)
-[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/risk-corruption-index-IMCO/main/assets/Infographic_IRC_IMCO_EN.jpg)
-
-<details markdown="1">
-  
-<summary markdown="1">
-🔍 See full case study
-</summary>
-  
-## 🔧 What I Did
-1. **Research Support** — Supported the IRC project in a research capacity, focused on interpreting procurement risk findings
-2. **Results Presentation** — Helped translate analytical results into clear insights and presentation materials for public policy audiences
-3. **Stakeholder Reporting** — Contributed to progress reporting to USAID as project funder
-
-## 🛠️ Technologies
-R (data analysis) | Tableau (interactive dashboard) | Public policy & governance research
-
-## 📊 Results
-[![View IRC Report](https://img.shields.io/badge/📄_View_IRC_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://imco.org.mx/indice-de-riesgos-de-corrupcion/)
-[![View Interactive Dashboard](https://img.shields.io/badge/📊_View_Interactive_Dashboard-2EA44F?style=for-the-badge&logo=tableau&logoColor=white)](https://imco.org.mx/riesgosdecorrupcion)
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/imco-irc-dashboard.png" alt="IRC dashboard — public procurement risk by institution" width="700">
-</p>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/risk-corruption-index-IMCO/main/assets/IRC_2020_High_Spending_Institutions.png" alt="IRC score 2020 — institutions with annual spend over MXN 3,000M (IMCO)" width="700">
-</p>
-
-## 💡 Key Insight
-Between 2018 and 2020, corruption risk increased in 147 of 247 federal institutions (59%), driven by weak competition, low transparency, and non-compliance. The tool was adopted as a reference in Mexican public policy debates on transparency and institutional integrity.
-
-</details>
-
----
-
 # NovaRetail+ — Behavioral Factors Associated with Annual Revenue
 
 ## 🎯 Objective
@@ -271,7 +184,7 @@ Python (pandas, numpy) | `scipy.stats` (`spearmanr`, `pointbiserialr`, `chi2_con
 
 ---
 
-# Landing Page A/B Test — Conversion and Revenue Validation
+# Landing Page A/B Test — Conversion & Revenue Validation
 
 ## 🎯 Objective
 Decide which homepage version an e-commerce platform should implement, using a 40,000-user, 28-day experiment — with each comparison matched to a test its assumptions actually justify.
@@ -316,6 +229,93 @@ Python (pandas, numpy) | `scipy.stats` (`levene`, Welch `ttest_ind`, `chi2_conti
 
 </details>
 
+
+---
+
+# Urban Mobility & Economic Productivity — Latin America
+
+## 🎯 Objective
+Determine where a development bank should invest in transport infrastructure by analyzing how urban mobility (congestion, delay) relates to economic productivity (GDP per capita, unemployment) across 15 Latin American cities.
+
+[![VIEW REPOSITORY FILES](https://img.shields.io/badge/VIEW%20REPOSITORY%20FILES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity)
+[![DOWNLOAD INFOGRAPHIC](https://img.shields.io/badge/DOWNLOAD%20INFOGRAPHIC-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/Infographic_UrbanMobility_LatAm_HighRes_1.png)
+
+<details markdown="1">
+  
+<summary markdown="1">
+🔍 See full case study
+</summary>
+  
+- **Data Integration** — Merged TomTom traffic records with OECD city economic indicators using city and year keys
+- - **Data Cleaning** — Standardized column formats, parsed European numeric formatting, converted timestamps, filtered to 2024
+- **Aggregation** — Grouped traffic records by city to calculate mean delay, congestion, and travel-time metrics per city-year
+- **Analysis** — Computed a congestion-to-productivity ratio and ran correlation analysis across GDP, congestion, unemployment, and population
+
+## 🛠️ Technologies
+Python (pandas, numpy) | seaborn, matplotlib | Data wrangling & correlation analysis | Jupyter Notebook
+
+## 📊 Results
+
+| City | GDP/Capita | Ratio | Profile |
+|---|---|---|---|
+| 🇨🇴 Bogotá | $11,442 | 0.100 | Highest urgency ⭐ |
+| 🇵🇪 Lima | $13,472 | 0.078 | Highest urgency ⭐ |
+| 🇲🇽 Mexico City | $21,111 | 0.134 | High-scale congestion |
+| 🇧🇷 São Paulo | $14,703 | 0.118 | High-scale congestion |
+| 🇧🇷 Brasília | $16,251 | 0.006 | Efficient benchmark |
+| 🇺🇾 Montevideo | $26,176 | 0.002 | Efficient benchmark |
+
+![Jams delay and GDP per capita by city](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_1.png?raw=true)
+
+## 💡 Key Insight
+The correlation matrix suggests that traffic jam is driven mainly by population size (r = 0.88), not GDP per capita (r = 0.28) as initially expected. Bogotá and Lima combine high traffic friction with lower economic output — the clearest case for investment. Mexico City and São Paulo show the highest absolute congestion, but it's scale-driven, not inefficiency. Montevideo and Brasília stand out as efficient benchmarks.
+
+![Correlation matrix](https://github.com/maxsantana-data2strategy/urbanmobility_economicproductivity/blob/main/assets/figure_2.png?raw=true)
+
+**Recommendation:** Prioritize transit investment in Bogotá and Lima for the highest expected economic return per dollar spent.
+
+</details>
+
+---
+
+# Risk Corruption Index (IRC in Spanish) — IMCO
+
+## 🎯 Objective
+Identify corruption risk in public procurement across 260+ Mexican federal institutions by evaluating compliance with three principles: competition, transparency, and rule of law.
+
+[![View Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/risk-corruption-index-IMCO)
+[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/risk-corruption-index-IMCO/main/assets/Infographic_IRC_IMCO_EN.jpg)
+
+<details markdown="1">
+  
+<summary markdown="1">
+🔍 See full case study
+</summary>
+  
+## 🔧 What I Did
+1. **Research Support** — Supported the IRC project in a research capacity, focused on interpreting procurement risk findings
+2. **Results Presentation** — Helped translate analytical results into clear insights and presentation materials for public policy audiences
+3. **Stakeholder Reporting** — Contributed to progress reporting to USAID as project funder
+
+## 🛠️ Technologies
+R (data analysis) | Tableau (interactive dashboard) | Public policy & governance research
+
+## 📊 Results
+[![View IRC Report](https://img.shields.io/badge/📄_View_IRC_Report-100000?style=for-the-badge&logo=readthedocs&logoColor=white)](https://imco.org.mx/indice-de-riesgos-de-corrupcion/)
+[![View Interactive Dashboard](https://img.shields.io/badge/📊_View_Interactive_Dashboard-2EA44F?style=for-the-badge&logo=tableau&logoColor=white)](https://imco.org.mx/riesgosdecorrupcion)
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/maxsantana-data2strategy.github.io/main/imco-irc-dashboard.png" alt="IRC dashboard — public procurement risk by institution" width="700">
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/risk-corruption-index-IMCO/main/assets/IRC_2020_High_Spending_Institutions.png" alt="IRC score 2020 — institutions with annual spend over MXN 3,000M (IMCO)" width="700">
+</p>
+
+## 💡 Key Insight
+Between 2018 and 2020, corruption risk increased in 147 of 247 federal institutions (59%), driven by weak competition, low transparency, and non-compliance. The tool was adopted as a reference in Mexican public policy debates on transparency and institutional integrity.
+
+</details>
 </div>
 
 <!-- ==========================================
@@ -327,7 +327,7 @@ Python (pandas, numpy) | `scipy.stats` (`levene`, Welch `ttest_ind`, `chi2_conti
 
 <p class="section-intro">Where description gives way to modeling — estimating what is likely, what is uncertain, and how much the data can actually support. Methods chosen to fit the problem, validated against data they haven’t seen, and reported with their limits rather than without them.</p>
 
-# Forecasting the Mexican Yield Curve — PCA and Out-of-Sample Evaluation
+# Forecasting the Mexican Yield Curve — PCA Structure & VAR Out-of-Sample Evaluation
 
 ## 🎯 Objective
 Test whether the common structure of Mexico's nominal yield curve — nine CETES and MBONOS maturities, 240 months — forecasts better than simply assuming rates stay where they are.
@@ -389,9 +389,8 @@ Python (pandas, numpy) | `sklearn.decomposition.PCA` | `statsmodels.tsa.api.VAR`
 
 <p class="section-intro">Not forecasting. The goal is not to predict the future but to see its possibilities and shape it. Driver analysis, scenario building, and horizon scanning used to stress-test strategy under deep uncertainty.</p>
 
-# AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026)
+# AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026) — (In - Progress)
 
-![In Progress](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 
 ## 🎯 Objective
 Identify and classify geopolitical risk signals for Mexico using AI-assisted NLP horizon scanning — transforming 43 raw signals into structured risk drivers for executive decision-making.
