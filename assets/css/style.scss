@@ -4,21 +4,28 @@
 @import "{{ site.theme }}";
 
 /* ==========================================================================
-   DARK THEME — black canvas, navy + gold brand accents
-   Overrides jekyll-theme-minimal so the page matches the section banners.
-   Palette: black #000 · surface #0B0B0D · navy #1B2847 · gold #B8893A
+   CYBERPUNK ANALYTICS — palette sampled from the section banners
+   bg #0A0E14 · cyan #00E9D8 · magenta #FB2E89 · dim teal #039E95
    ========================================================================== */
 
 :root {
-  --bg: #000000;
-  --surface: #0b0b0d;
-  --surface-2: #111218;
-  --border: #23252d;
-  --navy: #1b2847;
-  --gold: #b8893a;
-  --gold-soft: #d8a85f;
-  --text: #e8eaed;
-  --text-dim: #9ea5b2;
+  --bg: #0a0e14;
+  --surface: #0e131b;
+  --surface-2: #131a24;
+  --border: #1d2733;
+  --border-lit: #11343a;
+
+  --cyan: #00e9d8;
+  --cyan-dim: #039e95;
+  --cyan-deep: #056b67;
+  --magenta: #fb2e89;
+  --magenta-dim: #ac2361;
+
+  --text: #d7e0ea;
+  --text-dim: #7d8ca0;
+  --white: #ffffff;
+
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
 html {
@@ -26,14 +33,17 @@ html {
 }
 
 body {
-  background: var(--bg) !important;
   background-color: var(--bg) !important;
-  background-image: none !important;
+  background-image:
+    linear-gradient(rgba(0, 233, 216, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 233, 216, 0.028) 1px, transparent 1px) !important;
+  background-size: 48px 48px !important;
+  background-attachment: fixed !important;
   color: var(--text);
 }
 
 .wrapper {
-  background: var(--bg);
+  background: transparent;
 }
 
 /* ---------- Sidebar / header ---------- */
@@ -43,7 +53,11 @@ header {
 }
 
 header h1 {
-  color: #ffffff;
+  color: var(--white);
+}
+
+header h1 a {
+  color: var(--white);
 }
 
 header h2,
@@ -55,6 +69,7 @@ header ul li a small {
 
 header img {
   border-radius: 6px;
+  border: 1px solid var(--border-lit);
 }
 
 header ul {
@@ -96,10 +111,11 @@ header#top img {
 }
 
 .toc-sidebar .toc-title {
+  font-family: var(--mono);
   text-transform: uppercase;
   font-size: 11px;
-  letter-spacing: 1px;
-  color: var(--gold);
+  letter-spacing: 1.5px;
+  color: var(--cyan);
   margin: 0 0 10px;
   font-weight: 700;
 }
@@ -121,7 +137,7 @@ header#top img {
 
 .toc-sidebar a:hover,
 .toc-sidebar a:focus {
-  color: var(--gold);
+  color: var(--cyan);
 }
 
 /* ---------- Content ---------- */
@@ -131,11 +147,15 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: var(--white);
+}
+
+h1 {
+  letter-spacing: -0.4px;
 }
 
 h2 {
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-lit);
   padding-bottom: 6px;
 }
 
@@ -144,32 +164,39 @@ p, li, td, th, dd {
 }
 
 strong {
-  color: #ffffff;
+  color: var(--white);
+}
+
+em {
+  color: var(--text);
 }
 
 a {
-  color: var(--gold);
+  color: var(--cyan);
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #e0b25f;
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: var(--cyan);
 }
 
 blockquote {
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--magenta);
   color: var(--text-dim);
 }
 
 hr {
-  background: var(--border);
+  background: linear-gradient(90deg, var(--cyan-deep), transparent 70%);
   border: 0;
   height: 1px;
-  background-image: none;
+  background-image: linear-gradient(90deg, var(--cyan-deep), transparent 70%);
 }
 
 code, pre {
-  color: #e6edf3;
+  font-family: var(--mono);
 }
 
 code {
@@ -177,12 +204,21 @@ code {
   border: 1px solid var(--border);
   border-radius: 4px;
   padding: 1px 5px;
+  color: #ff79b4;
+  font-size: 0.9em;
 }
 
 pre {
   background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: 6px;
+  color: #e6edf3;
+}
+
+pre code {
+  background: transparent;
+  border: 0;
+  color: inherit;
 }
 
 table {
@@ -191,9 +227,13 @@ table {
 }
 
 table th {
-  background: var(--navy);
-  color: #ffffff;
-  border: 1px solid var(--border);
+  background: #0c1f24;
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 0.86em;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  border: 1px solid var(--border-lit);
 }
 
 table td {
@@ -205,8 +245,12 @@ table tr:nth-child(even) td {
   background: var(--surface-2);
 }
 
+table td strong {
+  color: var(--cyan);
+}
+
 dt {
-  color: #ffffff;
+  color: var(--white);
 }
 
 footer {
@@ -215,7 +259,7 @@ footer {
 }
 
 footer a {
-  color: var(--gold);
+  color: var(--cyan);
 }
 
 /* ---------- Project filter tabs ---------- */
@@ -231,26 +275,30 @@ footer a {
 
 .filter-btn {
   background: transparent;
-  border: 1px solid transparent;
+  border: 1px solid var(--border);
   padding: 10px 20px;
-  font-size: 15px;
+  font-family: var(--mono);
+  font-size: 13px;
   font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
   color: var(--text-dim);
   cursor: pointer;
-  border-radius: 6px;
-  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+  transition: all 0.18s ease-in-out;
 }
 
 .filter-btn:hover {
   background-color: var(--surface-2);
-  color: #ffffff;
+  border-color: var(--cyan-deep);
+  color: var(--cyan);
 }
 
 .filter-btn.active {
-  background-color: var(--navy);
-  border-color: var(--gold);
-  color: #ffffff;
-  box-shadow: 0 2px 10px rgba(184, 137, 58, 0.18);
+  background-color: rgba(0, 233, 216, 0.08);
+  border-color: var(--cyan);
+  color: var(--cyan);
+  box-shadow: 0 0 14px rgba(0, 233, 216, 0.22);
 }
 
 /* ---------- Project containers ---------- */
@@ -276,7 +324,7 @@ footer a {
   height: auto;
   display: block;
   border-radius: 8px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-lit);
   margin-bottom: 18px;
 }
 
@@ -284,13 +332,13 @@ footer a {
   color: var(--text-dim);
   font-size: 16px;
   line-height: 1.65;
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--cyan);
   padding: 2px 0 2px 16px;
   margin: 0 0 34px 0;
 }
 
 .section-intro strong {
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* ---------- Case-study disclosure ---------- */
@@ -305,18 +353,19 @@ details {
 
 details[open] {
   padding-bottom: 10px;
+  border-color: var(--border-lit);
 }
 
 details > summary {
   cursor: pointer;
-  color: var(--gold);
+  color: var(--cyan);
   font-weight: 600;
   padding: 14px 0;
   list-style-position: inside;
 }
 
 details > summary:hover {
-  color: #e0b25f;
+  color: var(--white);
 }
 
 img {
