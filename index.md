@@ -33,76 +33,23 @@ Hi there 👋, welcome to my portfolio
 ### 📁 Projects
 
 <!-- ==========================================
-1. Estilos CSS (Limpios y Minimalistas)
-========================================== -->
-<style>
-/* Contenedor de botones con línea divisoria */
-.filter-buttons {
-display: flex;
-gap: 10px;
-margin: 20px 0 30px 0;
-border-bottom: 2px solid #e1e4e8;
-padding-bottom: 10px;
-}
-
-/* Estilo base de los botones */
-.filter-btn {
-background: transparent;
-border: none;
-padding: 10px 20px;
-font-size: 16px;
-font-weight: 600;
-color: #586069;
-cursor: pointer;
-border-radius: 6px;
-transition: all 0.2s ease-in-out;
-}
-
-/* Efecto Hover */
-.filter-btn:hover {
-background-color: #f3f4f6;
-color: #24292e;
-}
-
-/* Estado Activo (Azul GitHub) */
-.filter-btn.active {
-background-color: #0366d6;
-color: #ffffff;
-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* Contenedores de Proyectos: Ocultos por defecto */
-.project-wrapper {
-display: none;
-animation: fadeIn 0.5s; /* Pequeña animación al aparecer */
-}
-
-/* Contenedor Activo: Visible */
-.project-wrapper.active {
-display: block;
-}
-
-/* Animación simple */
-@keyframes fadeIn {
-from { opacity: 0; }
-to { opacity: 1; }
-}
-</style>
-
-<!-- ==========================================
-2. Botones de Control (Pestañas)
+1. Botones de Control (Pestañas)
+   Los estilos viven en /assets/css/style.scss
 ========================================== -->
 <div class="filter-buttons">
-<!-- El botón de BI empieza como 'active' -->
 <button class="filter-btn active" onclick="filterProjects('bi', this)">Data Analysis / BI</button>
+<button class="filter-btn" onclick="filterProjects('ds', this)">Data Science</button>
 <button class="filter-btn" onclick="filterProjects('foresight', this)">Foresight</button>
 </div>
 
 <!-- ==========================================
-3. Contenedor: Data Analysis / BI
+2. Contenedor: Data Analysis / BI
 ========================================== -->
-<!-- Este contenedor empieza como 'active' para mostrarse por defecto -->
 <div class="project-wrapper bi active" markdown="1">
+
+<img class="section-banner" src="/assets/img/banner-data-bi.png" alt="Data Analysis and BI — portfolio section banner">
+
+<p class="section-intro"><strong>Business questions answered with operational data.</strong> These projects start where most organisations actually are — messy transactional records, sentinel values, disconnected tables — and end at a decision someone can sign off on: where to move marketing spend, which customers to monetise, where a development bank should build, which institutions carry procurement risk, which homepage to ship. SQL, Python and R for the analysis; Tableau and Power BI for the hand-off. Every case states the business question first and closes with a recommendation, not a chart.</p>
 
 # Territorial Profitability Analysis — Adventure Works
 
@@ -275,6 +222,162 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 
 </details>
 
+---
+
+# NovaRetail+ — Behavioral Factors Associated with Annual Revenue
+
+## 🎯 Objective
+Identify which customer behaviors are most strongly associated with the annual revenue each of 15,000 e-commerce customers generates — matching the correlation coefficient to the variable type, and separating statistical significance from practical relevance.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis/main/assets/Infographic_NovaRetail_EN.pdf)
+
+<details markdown="1">
+
+<summary markdown="1">
+🔍 See full case study
+</summary>
+
+## 🔧 What I Did
+1. **Variable Typing** — Classified 12 columns into numerical, binary and categorical families, since variable type is what determines which coefficient is valid
+2. **Distribution Profiling** — Diagnosed right skew and long tails in `monthly_visits`, `monthly_purchases` and `targeted_ad_spend` — the reason the analysis does not rely on Pearson alone
+3. **Coefficient Selection** — Spearman as the primary coefficient, with Pearson–Spearman differencing across all six key pairs to *measure* the outlier impact rather than assume it; point-biserial for the binary variables and Cramér's V for the categorical pair
+4. **Significance vs Effect Size** — Reported every p-value alongside its effect size, and documented explicitly what a correlational design cannot claim
+
+## 🛠️ Technologies
+Python (pandas, numpy) | `scipy.stats` (`spearmanr`, `pointbiserialr`, `chi2_contingency`) | seaborn, matplotlib | Jupyter Notebook
+
+## 📊 Results
+
+| Relationship | Coefficient | Value | Read |
+|---|---|---|---|
+| Purchases ↔ Revenue | Spearman ρ | **0.968** ⭐ | Dominant signal |
+| Visits ↔ Ad spend | Spearman ρ | 0.559 | Ads buy traffic |
+| Visits ↔ Revenue | Spearman ρ | 0.321 | Secondary |
+| Ad spend ↔ Revenue | Spearman ρ | 0.185 | Weak |
+| Premium member ↔ Revenue | Point-biserial r | 0.093 (p ≈ 3e-30) | Significant, negligible |
+| Device type × Region | Cramér's V | 0.012 (p = 0.60) | No association |
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/novaretail-revenue-correlation-analysis/main/assets/figure_5_secondary_drivers_regression.png" alt="Secondary drivers of annual revenue with regression lines" width="700">
+</p>
+
+## 💡 Key Insight
+**Purchase frequency dominates (ρ = 0.97); premium membership does not move revenue.** With n = 15,000, an r of 0.09 clears any significance threshold while remaining commercially meaningless — the effect size, not the p-value, is the decision-relevant quantity. Churn shows no behavioral signature at all (every coefficient within ±0.01).
+
+**Recommendation:** Optimize for conversion rather than traffic, judge campaigns on conversion-based return instead of spend or visits, and validate the purchases–revenue construction (ρ = 0.97 is a collinearity red flag) before using both in any predictive model.
+
+</details>
+
+---
+
+# Landing Page A/B Test — Conversion and Revenue Validation
+
+## 🎯 Objective
+Decide which homepage version an e-commerce platform should implement, using a 40,000-user, 28-day experiment — with each comparison matched to a test its assumptions actually justify.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/landing-page-ab-test-analysis)
+[![Download Infographic PDF](https://img.shields.io/badge/📥_Download_Infographic_PDF-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/landing-page-ab-test-analysis/main/assets/Infographic_LandingAB_EN.pdf)
+
+<details markdown="1">
+
+<summary markdown="1">
+🔍 See full case study
+</summary>
+
+## 🔧 What I Did
+1. **Validation & Balance Check** — 40,000 rows verified for nulls, duplicates and repeated user IDs; arms compared on region, device, channel and user type (largest gap: 0.8 pp)
+2. **Assumption-Driven Test Selection** — Levene's test (p = 6.9e-08) ruled out equal variances, so **Welch's t-test** was used for spending instead of Student's
+3. **Sensitivity Analysis** — IQR flagged 2.8% of buyers in each arm as high spenders; verified as genuine purchases and **kept**, then re-ran the test without them to confirm the tail was not creating the effect
+4. **Proportions & Independence** — Two-proportion z-test for conversion; chi-square on contingency tables of counts for traffic source and user type, with expected-frequency validation
+5. **Effect Sizes Everywhere** — Cohen's d and Cramér's V reported with every significant result, because at n = 40,000 significance is cheap
+
+## 🛠️ Technologies
+Python (pandas, numpy) | `scipy.stats` (`levene`, Welch `ttest_ind`, `chi2_contingency`) | `statsmodels` (`proportions_ztest`) | Cohen's d & Cramér's V | Jupyter Notebook
+
+## 📊 Results
+
+| Question | Test | Result | Effect size |
+|---|---|---|---|
+| Conversion rate | Two-proportion z | 15.96% vs 12.57% — **+3.38 pp (+26.9%)**, p = 3.8e-22 | The decisive effect ⭐ |
+| Spending per converted user | Welch's t | 68.75 vs 61.09 — **+12.5%**, 95% CI [+6.08, +9.24] | Cohen's d = 0.25 (small) |
+| Outlier sensitivity | IQR + re-run | Difference moves +7.66 → +7.61 | d rises to 0.30 |
+| Conversion by traffic source | χ² | p = 0.034 (significant) | Cramér's V = 0.015 (negligible) |
+| Conversion by user type | χ² | p = 0.474 | V = 0.004 — nothing |
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/landing-page-ab-test-analysis/main/assets/figure_2_conversion_rate_by_version.png" alt="Conversion rate by landing page version, A versus B" width="700">
+</p>
+
+## 💡 Key Insight
+**Version B wins on both metrics — but only one of them should carry the decision.** The +26.9% relative conversion gain is worth considerably more than a +12.5% spending difference sitting at d = 0.25. Channel is *statistically* associated with conversion and *practically* irrelevant: V = 0.015 across a 1.2 pp spread.
+
+**Recommendation:** Implement Landing Page B platform-wide; do not reallocate budget by channel or segment the roll-out by user type on this evidence; track refunds, support contacts and acquisition cost as guardrails the experiment cannot see.
+
+</details>
+
+</div>
+
+<!-- ==========================================
+3. Contenedor: Data Science
+========================================== -->
+<div class="project-wrapper ds" markdown="1">
+
+<img class="section-banner" src="/assets/img/banner-data-science.png" alt="Data Science — portfolio section banner">
+
+<p class="section-intro"><strong>Method under uncertainty.</strong> Where the analyses above answer a question the data already contains, this work asks whether a model can anticipate what the data has not shown yet — compressing a nine-maturity yield curve into its common structure with PCA, forecasting it with VAR, and measuring the result against a benchmark that is genuinely hard to beat. The missing-data treatment is reported as part of the result, and the tests that were not run are stated explicitly rather than implied.</p>
+
+# Forecasting the Mexican Yield Curve — PCA and Out-of-Sample Evaluation
+
+## 🎯 Objective
+Test whether the common structure of Mexico's nominal yield curve — nine CETES and MBONOS maturities, 240 months — forecasts better than simply assuming rates stay where they are.
+
+[![Access to full project description and check Repository Files](https://img.shields.io/badge/📂_View_Repository_Files-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maxsantana-data2strategy/forecasting-mexican-yield-curve)
+[![Read the Notebook](https://img.shields.io/badge/📓_Read_the_Notebook-0366D6?style=for-the-badge&logo=jupyter&logoColor=white)](https://maxsantana-data2strategy.github.io/forecasting-mexican-yield-curve/analisis_curva_banxico_notebook.html)
+[![Download Infographic](https://img.shields.io/badge/📥_Download_Infographic-2EA44F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/maxsantana-data2strategy/forecasting-mexican-yield-curve/main/assets/Infographic_YieldCurve_EN.jpg)
+
+<details markdown="1">
+
+<summary markdown="1">
+🔍 See full case study
+</summary>
+
+## 🔧 What I Did
+1. **Missingness Audit** — Pivoted 1,936 long-format records to a monthly matrix and found the gaps appear only on alignment: just **40 of 240 months** observe all nine maturities (30% missing at 30 years)
+2. **Causal Forward-Fill** — Each gap takes the last *past* observation, never future information, applied before trimming the sample; a dedicated script compares both orderings and documents the difference
+3. **PCA on Levels** — Estimated unstandardized so genuine differences in variability across maturities are preserved rather than normalized away
+4. **Benchmark Selection** — Compared persistence, expanding historical mean and 12-month moving average, then measured both models against **the hardest of the three**
+5. **Expanding-Window Evaluation** — Training ends Sept 2022; 45 origins at h = 3 and 36 at h = 12, with the PCA re-estimated at every origin so factors are never contaminated by unavailable data
+
+## 🛠️ Technologies
+Python (pandas, numpy) | `sklearn.decomposition.PCA` | `statsmodels.tsa.api.VAR` | Expanding-window out-of-sample evaluation (RMSE/MAE) | matplotlib, PIL | Jupyter Notebook
+
+## 📊 Results
+
+| Component | Variance explained | Interpretation |
+|---|---|---|
+| PC1 | **94.09%** | Level — same sign across all maturities |
+| PC2 | 4.60% | Slope — short against long |
+| PC3 | 0.69% | Curvature — middle against the extremes |
+| **Three components** | **99.38%** | Reconstructs nine rates to **15.07 bp** |
+
+| Horizon | Best model | RMSE | vs persistence |
+|---|---|---|---|
+| h = 3 | **Direct VAR(1)** | 0.5103 | −7.2% ⭐ |
+| h = 12 | **PCA(3) + VAR(1)** | 1.1630 | −8.6% ⭐ |
+| h = 12 | Direct VAR(1) | 1.2808 | +0.7% *worse* |
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/maxsantana-data2strategy/forecasting-mexican-yield-curve/main/assets/figure_model_rmse.png" alt="Out-of-sample RMSE by model and horizon against the persistence benchmark" width="700">
+</p>
+
+## 💡 Key Insight
+**The curve is three numbers wide — but compression only pays at the long horizon.** Modelling changes directly wins at 3 months and *loses to the benchmark* at 12, where the factor representation delivers the biggest gap in the table. No single specification dominates, and persistence beats one of the two models at each horizon.
+
+**Recommendation:** Select the model by horizon rather than seeking one winner. Results are labelled **exploratory**: forward-fill can manufacture zero monthly changes, no significance test between models was run, and the auction-availability treatment is the limitation most likely to change the ranking.
+
+</details>
+
 </div>
 
 <!-- ==========================================
@@ -282,7 +385,9 @@ Between 2018 and 2020, corruption risk increased in 147 of 247 federal instituti
 ========================================== -->
 <div class="project-wrapper foresight" markdown="1">
 
----
+<img class="section-banner" src="/assets/img/banner-foresight.png" alt="Strategic Foresight — portfolio section banner">
+
+<p class="section-intro"><strong>Anticipation as a strategic discipline.</strong> These projects deal with what has not happened yet. Horizon scanning, Causal Layered Analysis, scenario building and stakeholder facilitation — applied to geopolitical risk in Mexico, the global humanitarian aid system to 2040, and the creative economy of Nuevo León. The output is never a prediction: it is a structured set of plausible futures and the strategic options each one demands.</p>
 
 # AI + Data Analysis for Horizon Scanning · México Geopolitical Risk (2026)
 
@@ -405,6 +510,7 @@ Horizon scanning report for the creative economy | 4 future scenarios for Nuevo 
 
 </details>
 
+
 </div>
 
 <!-- ==========================================
@@ -413,17 +519,14 @@ Horizon scanning report for the creative economy | 4 future scenarios for Nuevo 
 
 <script>
 function filterProjects(category, btnElement) {
-// 1. Desactivar todos los botones y activar el presionado
 var buttons = document.querySelectorAll('.filter-btn');
 for (var i = 0; i < buttons.length; i++) {
 buttons[i].classList.remove('active');
 }
 btnElement.classList.add('active');
 
-// 2. Ocultar todos los contenedores y mostrar el de la categoría
 var wrappers = document.querySelectorAll('.project-wrapper');
 for (var j = 0; j < wrappers.length; j++) {
-// Usamos classList.contains para mayor seguridad
 if (wrappers[j].classList.contains(category)) {
 wrappers[j].classList.add('active');
 } else {
